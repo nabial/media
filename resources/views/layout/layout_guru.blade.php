@@ -141,7 +141,7 @@
         </li>
 
         <li>
-          <a href="soal">
+          <a href="gurusoal">
             <i class="fa fa-th"></i> <span>Soal</span>
           </a>
         </li>
@@ -155,8 +155,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="subbab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
-            <li><a href="video"><i class="fa fa-circle-o"></i> Video</a></li>
+            <li><a href="gurubab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
+            <li><a href="guruvideo"><i class="fa fa-circle-o"></i> Video</a></li>
           </ul>
         </li>
       </ul>
