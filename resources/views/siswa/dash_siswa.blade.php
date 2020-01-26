@@ -1,20 +1,11 @@
 @extends('layout.layout_siswa')
 
 @section('content')
-<section class="content-header">
-      <h1>
-        Dashboard
-        <small>Control panel</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard siswa</li>
-      </ol>
-</section>
 
     <!-- Main content -->
-    <section class="content">
-      
-    	hallo siswaa
+    <section class="content-homesiswa">
+
+      <img src="admin_lte/dist/img/coba.jpg" width="100%">
+
     </section>
 @endsection

@@ -16,9 +16,9 @@ class CreateMateriTable extends Migration
         Schema::create('materi', function (Blueprint $table) {
             $table->increments('id_materi')->unique();
             $table->string('judul');
-            $table->string('isi_materi');
-            $table->string('video');
-            $table->string('gambar');
+            $table->string('isi_materi')->nullable();
+            $table->string('video')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

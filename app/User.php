@@ -9,8 +9,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
     use Notifiable;
-    protected $table = 'users'
-    protected $primaryKey = 'id'
+    protected $table = 'users';
+    protected $primaryKey = 'id';
     
     public $incrementing = false;
     
@@ -41,5 +41,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
     
+    public function jawaban()
+    {
+        return $this->hasMany(Jawaban::class);
+    }
     
 }
