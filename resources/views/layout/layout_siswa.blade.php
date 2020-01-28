@@ -38,7 +38,7 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition skin-blue-light sidebar-mini">
+<body class="hold-transition skin-yellow-light sidebar-mini">
 <div class="wrapper">
 
   <header class="main-header">
@@ -108,31 +108,15 @@
       <ul class="sidebar-menu" data-widget="tree">
         
         <li class="header">MAIN NAVIGATION</li>
-        <li  class="active treeview">
+        <li>
           <a href="dashsiswa">
             <i class="fa fa-home"></i> <span>HOME</span>
           </a>
         </li>
 
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Kompetensi</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="kd"><i class="fa fa-circle-o"></i> Kompetensi Dasar</a></li>
-            <li><a href="ki"><i class="fa fa-circle-o"></i> Kompetensi inti</a></li>
-            <li><a href="indikator"><i class="fa fa-circle-o"></i> Indikator </a></li>
-            <li><a href="tujuan"><i class="fa fa-circle-o"></i> Tujuan Pembelajaran</a></li>
-          </ul>
-        </li>
-
         <li>
-          <a href="kuis">
-            <i class="fa fa-th"></i> <span>Kuis</span>
+          <a href="kd">
+            <i class="fa fa-files-o"></i> <span>Kompetensi</span>
           </a>
         </li>
 
@@ -145,10 +129,17 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="subbab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
+            <li><a href="bab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
             <li><a href="video"><i class="fa fa-circle-o"></i> Video</a></li>
           </ul>
         </li>
+
+        <li>
+          <a href="kuis">
+            <i class="fa fa-th"></i> <span>Kuis</span>
+          </a>
+        </li>
+
       </ul>
     </section>
     <!-- /.sidebar -->
