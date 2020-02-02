@@ -18,6 +18,7 @@ Route::get('/tambahuser','UserController@insertuser');
 Route::post('/simpan/user', 'UserController@simpanuser')->name('simpan.user');
 Route::post('/simpan/materi', 'MateriController@simpanmateri')->name('simpan.materi');
 Route::get('/siswa','UserController@siswa');
+Route::get('/subbab','MateriController@subbab');
 
 // GURU
 // Route::get('/dashguru', function () {
@@ -33,9 +34,9 @@ Route::get('/guru', function () {
 Route::get('/gurusoal', function () {
     return view('guru.soal');
 });
-Route::get('/gurubab', function () {
-    return view('guru.subbab');
-});
+// Route::get('/gurubab', function () {
+//     return view('guru.subbab');
+// });
 // Route::get('/tambahuser', function () {
 //     return view('guru.tambahuser');
 // });
@@ -45,7 +46,9 @@ Route::get('/guruvideo', function () {
 // Route::get('/tambahmateri', function () {
 //     return view('guru.tambahmateri');
 // });
-
+Route::get('/jawaban', function () {
+    return view('siswa.jawaban');
+});
 
 //SISWAAAA
 // Route::get('/dashsiswa', function () {

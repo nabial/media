@@ -1,4 +1,4 @@
-@extends('layout.layout_guru')
+@extends('layout.layout_siswa')
 
 @section('content')
 <section class="content-header">
@@ -6,11 +6,10 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h2>Video</h2>
+                <h2>JAWABAN</h2>
                 <ol class="breadcrumb">
                     <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="{{asset('/dashguru')}}"></i>Materi</a></li>
-                    <li class="active">Video</li>
+                    <li class="active">jAWABAN</li>
                 </ol>
             </div>
         </div>
@@ -21,6 +20,5 @@
     <!-- Main content -->
     <section class="content">
       
-    	videoooo
     </section>
 @endsection

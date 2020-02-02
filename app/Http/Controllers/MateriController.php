@@ -4,10 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\materi;
+use App\Materi;
 
 class MateriController extends Controller
 {
+    public function subbab()
+    {
+        $data['datamateri'] = Materi::all();
+        return view('guru.subbab',$data);
+    } 
+
     public function insertmateri()
     {
     	return view('guru.tambahmateri');
