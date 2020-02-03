@@ -2,87 +2,63 @@
 
 @section('content')
 <section class="content-header">
-      <h1>
-        Dashboard
-        <small>Control panel</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-        <li class="active">Materi</li>
-      </ol>
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel block">
+            <div class="panel-body">
+                <h2>Video</h2>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#"></i>Materi</a></li>
+                    <li class="active">Video</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
 </section>
 
     <!-- Main content -->
     <section class="content">
-      
-    	<!-- row -->
       <div class="row">
-        <div class="col-xs-12">
-          <!-- jQuery Knob -->
-          <div class="box box-solid">
-            <div class="box-header">
-              <i class="fa fa-bar-chart-o"></i>
 
-              <h3 class="box-title">Video Topologi Bus</h3>
-
+        <div class="col-md-12">
+          <div class="box box-default collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title"><i class="fa fa-video-camera"></i> Tutorial hmmm</h3>
               <div class="box-tools pull-right">
-                <button type="button" class="btn btn-default btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-default btn-sm" data-widget="remove"><i class="fa fa-times"></i>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-angle-down"></i>
                 </button>
               </div>
             </div>
-            <!-- /.box-header -->
             <div class="box-body">
-
-              <p>l</p>
-              <p>kkk</p>
-              <p>mmmmmm</p>
-              <p>m</p>
-              <p>m</p>
-              <p>m</p>
-              <p>g</p>
-
+              isi video
+              lorem ipsum dolor sit amet
+              lorem ipsum dolor sit amet
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
 
-
-      <!-- row2 -->
-      <div class="row">
-        <div class="col-xs-12">
-          <!-- jQuery Knob -->
-          <div class="box box-solid">
-            <div class="box-header">
-              <i class="fa fa-bar-chart-o"></i>
-
-              <h3 class="box-title">Video Topologi Bus</h3>
-
+        <div class="col-md-12">
+          <div class="box box-default collapsed-box">
+            <div class="box-header with-border">
+              <h3 class="box-title"><i class="fa fa-video-camera"></i> Tutorial manjah</h3>
               <div class="box-tools pull-right">
-                <button type="button" class="btn btn-default btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-default btn-sm" data-widget="remove"><i class="fa fa-times"></i>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-angle-down"></i>
                 </button>
               </div>
             </div>
-            <!-- /.box-header -->
             <div class="box-body">
-
-              VIDEOOO
-
+              isi video
+              lorem ipsum dolor sit amet
+              lorem ipsum dolor sit amet
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row2 -->
 
+
+      </div>
     </section>
+
+
 @endsection

@@ -155,7 +155,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="gurubab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
+            <li><a href="subbab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
             <li><a href="guruvideo"><i class="fa fa-circle-o"></i> Video</a></li>
             <li><a href="tambahmateri"><i class="fa fa-circle-o"></i> Tambah Materi</a></li>
           </ul>
