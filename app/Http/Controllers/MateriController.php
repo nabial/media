@@ -31,6 +31,14 @@ class MateriController extends Controller
     		return view('guru.tambahmateri');
     	}
 
+    }
+
+    public function video()
+    {
+        $data['materivideo'] = Materi::all();
+        return view('guru.video',$data);
     } 
+
+    
 
 }

@@ -36,9 +36,10 @@
                   
                   <div class="post">
                     @foreach($datamateri as $materi)
-                    <p>
-                     {{ $materi->isi_materi }}
-                    </p>
+                    <p></p>
+                    <!--  {{ $materi->isi_materi }} -->     
+                    <video>{{ $materi->video }</video>
+                    
                     @endforeach
                   </div>
                    

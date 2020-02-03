@@ -19,7 +19,7 @@ Route::post('/simpan/user', 'UserController@simpanuser')->name('simpan.user');
 Route::post('/simpan/materi', 'MateriController@simpanmateri')->name('simpan.materi');
 Route::get('/siswa','UserController@siswa');
 Route::get('/subbab','MateriController@subbab');
-
+Route::get('/guruvideo','MateriController@video');
 // GURU
 // Route::get('/dashguru', function () {
 //     return view('guru.dash_guru');
@@ -40,9 +40,9 @@ Route::get('/gurusoal', function () {
 // Route::get('/tambahuser', function () {
 //     return view('guru.tambahuser');
 // });
-Route::get('/guruvideo', function () {
-    return view('guru.video');
-});
+// Route::get('/guruvideo', function () {
+//     return view('guru.video');
+// });
 // Route::get('/tambahmateri', function () {
 //     return view('guru.tambahmateri');
 // });
