@@ -24,7 +24,7 @@
         <div class="panel block">
             <div class="panel-body">
 
-                <form action="{{route('simpan.materi')}}" method="post">
+                <form action="{{route('simpan.materi')}}" method="post" enctype="multipart/form-data">
                     {{ csrf_field() }} 
                     <div class="form-group">
                       <label> Judul Materi :</label>
@@ -36,11 +36,11 @@
                     </div>
                     <div class="form-group">
                       <label>Video :</label>
-                      <div><input type="file" class="form-control"  name="video" required></div>
+                      <div><input type="file" class="form-control"  name="video"></div>
                     </div>
                     <div class="form-group">
                       <label>Gambar :</label>
-                      <div><input type="file" class="form-control"  name="Gambar" required></div>
+                      <div><input type="file" class="form-control"  name="gambar"></div>
                     </div>
       
                     <button type="submit" class="btn btn-primary ">Submit</button>
