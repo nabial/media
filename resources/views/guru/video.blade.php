@@ -31,11 +31,11 @@
                 </button>
               </div>
             </div>
-            <!-- @foreach($materivideo as $video) -->
+            @foreach($materivideo as $video)
             <div class="box-body">
-                <video> <!-- {{ $materi->video }} --> </video>
+                <video> {{ $video->video }} </video>
             </div>
-           <!--  @endforeach -->
+            @endforeach
           </div>
         </div>
 

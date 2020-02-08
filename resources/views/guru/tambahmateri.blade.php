@@ -40,7 +40,7 @@
                     </div>
                     <div class="form-group">
                       <label>Gambar :</label>
-                      <div><input type="file" class="form-control"  name="Gambar" required></div>
+                      <div><input type="file" class="form-control"  name="gambar" required></div>
                     </div>
       
                     <button type="submit" class="btn btn-primary ">Submit</button>
