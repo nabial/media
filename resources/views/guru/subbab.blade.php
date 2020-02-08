@@ -27,6 +27,8 @@
               <ul class="nav nav-tabs">
                 @foreach($datamateri as $materi)
                 <li class="active"><a href="#activity" data-toggle="tab">{{ $materi->judul }}</a></li>
+                <img width="150px" src="{{ url('image/'.$materi->gambar) }}"/>
+                <img width="150px" src="{{ url('video/'.$materi->video) }}"/>
                 @endforeach
               </ul> 
                 
