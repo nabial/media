@@ -25,7 +25,7 @@
         <div class="col-md-12">
           <div class="box box-default collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title"><i class="fa fa-video-camera"></i> Tutorial hmmm</h3>
+              <h3 class="box-title"><i class="fa fa-video-camera"></i> Video1</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-angle-down"></i>
                 </button>
@@ -42,7 +42,7 @@
         <div class="col-md-12">
           <div class="box box-default collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title"><i class="fa fa-video-camera"></i> Tutorial manjah</h3>
+              <h3 class="box-title"><i class="fa fa-video-camera"></i> Video2</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-angle-down"></i>
                 </button>

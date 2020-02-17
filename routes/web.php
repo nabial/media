@@ -75,6 +75,10 @@ Route::get('/bab', function () {
 Route::get('/video', function () {
     return view('siswa.video');
 });
+Route::get('/materi1', function () {
+    return view('siswa.materi1');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -20,6 +20,17 @@
 
     <!-- Main content -->
   <section class="content">
+    <!-- callout -->
+      <div class="callout callout-info">
+        <a href="materi1"><h4>Judul Materi 1</h4></a>
+        <a href="materi1"><p>Materi 1 blablablaa lorem ipsum dolor sit amet </p></a>
+      </div>
+
+      <div class="callout callout-danger">
+        <a href="materi1"><h4>Judul Materi 2</h4></a>
+        <a href="materi1"><p>Materi 2 blablablaa lorem ipsum dolor sit amet </p></a>
+      </div>
+      <!-- /.callout -->
     <!-- okeh -->
     <div class="row">
       <div class="col-md-12">

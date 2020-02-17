@@ -15,6 +15,12 @@ class MateriController extends Controller
         return view('guru.subbab',$data);
     } 
 
+    public function video()
+    {
+        $data['materivideo'] = Materi::all();
+        return view('guru.video',$data);
+    } 
+
     public function insertmateri()
     {
     	return view('guru.tambahmateri');
@@ -28,7 +34,7 @@ class MateriController extends Controller
 
         //menyimpan video ke folder public/video
         $file_video = $request->file('video');
-        $file_video->move(public_path()."/video/", $file_video->getClientOriginalName());
+        $file_video->move(public_path()."/image/", $file_video->getClientOriginalName());
 
     	$materi = new materi;
     	$materi->id_materi = $request->id_materi;
@@ -43,10 +49,6 @@ class MateriController extends Controller
 
     }
 
-    public function video()
-    {
-        $data['materivideo'] = Materi::all();
-        return view('guru.video',$data);
-    } 
+    
 
 }

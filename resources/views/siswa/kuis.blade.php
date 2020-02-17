@@ -67,8 +67,17 @@
           </div>
         </div>
 
-        <button class="btn btn-primary" a href="jawaban"> Submit </button>
-        <button type="button"> <a href="jawaban"> kiriim jawaban</button> 
+
+        <div class="row">
+          <div class="col-md-3">
+            <a href="jawaban" class="btn btn-block btn-info btn-lg">submit &#10141</a>
+          </div>
+          <div class="col-md-6">
+            <!-- <a href="jawaban" class="btn btn-block btn-info btn-lg">submit &#10141</a> -->
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+
       </div>
     </section>
 @endsection
