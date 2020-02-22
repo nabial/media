@@ -23,7 +23,7 @@
 
         <div class="col-md-12">
           <div class="box box-widget widget-user-2">
-            <div class="widget-user-header bg-teal"> 
+            <div class="widget-user-header bg-purple"> 
               <div class="row">
                 <div class="col-md-1">
                   <h1>1</h1>

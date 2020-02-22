@@ -13,7 +13,10 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="admin_lte/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
+  
   <link rel="stylesheet" href="admin_lte/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="admin_lte/dist/css/media.css">
+
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="admin_lte/dist/css/skins/_all-skins.min.css">
@@ -45,9 +48,9 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>O</b>O</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Learning</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -120,20 +123,12 @@
           </a>
         </li>
 
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Materi</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+        <li>
+          <a href="bab">
+            <i class="fa fa-pie-chart"></i> <span>Materi</span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="bab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
-            <li><a href="video"><i class="fa fa-circle-o"></i> Video</a></li>
-          </ul>
         </li>
-
+        
         <li>
           <a href="kuis">
             <i class="fa fa-th"></i> <span>Kuis</span>

@@ -6,7 +6,6 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h2>Kompetensi</h2>
                 <ol class="breadcrumb">
                     <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">Kompetensi</li>
@@ -19,8 +18,50 @@
 
     <!-- Main content -->
     <section class="content">
-    	<div class="row" >
 
+    <div class="feature_part single_feature_padding">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3">
+              <div class="single_feature">
+                <div class="single_feature_part">
+                   <span class="single_feature_icon"><i class="ti-layers"></i></span>
+                    <h4>Kompetensi Dasar</h4>
+                    <p>Set have great you male grasses yielding yielding first their to
+                                called deep abundantly Set have great you male</p>
+                 </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="single_feature">
+                <div class="single_feature_part">
+                   <span class="single_feature_icon"><i class="ti-layers"></i></span>
+                    <h4>Indikator Pencapaian Kompetensi</h4>
+                    <p>Set have great you male grasses yielding yielding first their to
+                                called deep abundantly Set have great you male</p>
+                 </div>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="single_feature">
+                <div class="single_feature_part">
+                   <span class="single_feature_icon"><i class="ti-layers"></i></span>
+                    <h4>Tujuan Pembelajaran</h4>
+                    <p>Set have great you male grasses yielding yielding first their to
+                                called deep abundantly Set have great you male</p>
+                 </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    	<div class="row" >
         <!-- RIGHT -->
         <div class="col-md-6">
           <div class="box box-primary">
@@ -35,6 +76,10 @@
               <p>3.6 Mengevaluasi routing dinamis</p>
               <p>4.6 Mengkonfigurasi routing dinamis</p>
             </div>
+          </div>
+
+          <div class="sisi">
+            <p>hem hahahha hahaha wkwkwk</p>
           </div>
 
           <div class="box box-danger">
@@ -85,8 +130,8 @@
               <p>lalalaa yyeyeye lalala yeyeyey lalala yeyeye</p>
             </div>
           </div>
-        </div>
-        
+        </div>   
       </div>
+
     </section>
 @endsection
