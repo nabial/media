@@ -28,7 +28,9 @@
               <p>Score</p>
             </div>
             <div class="inner">
-              <h3>100</h3>
+              @foreach($simpanjawaban as $jawaban)
+                <h3>{{$jawaban->score}}</h3>
+              @endforeach
             </div>
             <a href="kuis" class="small-box-footer">Ulangi kuis <i class="fa fa-arrow-circle-right"></i></a>
           </div>

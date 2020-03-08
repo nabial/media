@@ -18,7 +18,15 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect('/home');
+            $user = \Auth::user();
+            if ($user->isguru())
+            {
+                return redirect('guru/dashguru');
+            }
+            else if ($user->issiswa())
+            {
+                return redirect('siswa/dashsiswa');
+            }
         }
 
         return $next($request);

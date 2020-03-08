@@ -11,73 +11,42 @@
 |
 */
 // COBA
-Route::get('/dashguru','UserController@dashguru');
-Route::get('/dashsiswa','UserController@dashsiswa');
-Route::get('/tambahmateri','MateriController@insertmateri');
-Route::get('/tambahuser','UserController@insertuser');
-Route::post('/simpan/user', 'UserController@simpanuser')->name('simpan.user');
-Route::post('/simpan/materi', 'MateriController@simpanmateri')->name('simpan.materi');
-Route::get('/siswa','UserController@siswa');
-Route::get('/subbab','MateriController@subbab');
-Route::get('/guruvideo','MateriController@video');
-// GURU
-// Route::get('/dashguru', function () {
-//     return view('guru.dash_guru');
+// Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
+    Route::get('/dashguru','UserController@dashguru');
+    Route::get('/tambahmateri','MateriController@insertmateri');
+    Route::get('/tambahuser','UserController@insertuser');
+    Route::post('/simpan/user', 'UserController@simpanuser')->name('simpan.user');
+    Route::post('/simpan/materi', 'MateriController@simpanmateri')->name('simpan.materi');
+    Route::get('/siswa','UserController@siswa');
+    Route::get('/subbab','MateriController@subbab');
+    Route::get('/guruvideo','MateriController@video');
+    Route::get('/guru', function () {
+        return view('guru.guru');
+    });
+    Route::get('/gurusoal', function () {
+        return view('guru.soal');
+    });
 // });
 
-Route::get('/guru', function () {
-    return view('guru.guru');
-});
-// Route::get('/siswa', function () {
-//     return view('guru.siswa');
-// });
-Route::get('/gurusoal', function () {
-    return view('guru.soal');
-});
-// Route::get('/gurubab', function () {
-//     return view('guru.subbab');
-// });
-// Route::get('/tambahuser', function () {
-//     return view('guru.tambahuser');
-// });
-// Route::get('/guruvideo', function () {
-//     return view('guru.video');
-// });
-// Route::get('/tambahmateri', function () {
-//     return view('guru.tambahmateri');
-// });
-Route::get('/jawaban', function () {
-    return view('siswa.jawaban');
-});
 
-//SISWAAAA
-// Route::get('/dashsiswa', function () {
-//     return view('siswa.dash_siswa');
+// Route::group(['prefix' => 'siswa',  'middleware' => 'is_siswa'], function(){
+    Route::get('/dashsiswa','UserController@dashsiswa');
+    Route::get('/jawaban', 'JawabanController@jawaban');
+    Route::post('/simpan/jawaban', 'JawabanController@simpanjawaban')->name('simpanjawaban');
+    Route::get('/kd', function () {
+        return view('siswa.kd');
+    });
+    Route::get('/kuis', function () {
+        return view('siswa.kuis');
+    });
+    Route::get('/bab', function () {
+        return view('siswa.subbab');
+    });
+    Route::get('/materi1', function () {
+        return view('siswa.materi1');
+    });
 // });
-Route::get('/kd', function () {
-    return view('siswa.kd');
-});
-Route::get('/ki', function () {
-    return view('siswa.ki');
-});
-Route::get('/indikator', function () {
-    return view('siswa.indikator');
-});
-Route::get('/tujuan', function () {
-    return view('siswa.tujuan');
-});
-Route::get('/kuis', function () {
-    return view('siswa.kuis');
-});
-Route::get('/bab', function () {
-    return view('siswa.subbab');
-});
-Route::get('/video', function () {
-    return view('siswa.video');
-});
-Route::get('/materi1', function () {
-    return view('siswa.materi1');
-});
+
 
 Auth::routes();
 

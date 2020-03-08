@@ -21,30 +21,6 @@
     <!-- Main content -->
   <section class="content">
 
-
-     <!--  <div class="callout callout-info">
-        <a href="materi1"><h4>Judul Materi 1</h4></a>
-        <a href="materi1"><p>Materi 1 blablablaa lorem ipsum dolor sit amet </p></a>
-      </div>
-
-      <div class="callout callout-info" >
-        <a href="materi1"><h4>Judul Materi 2</h4></a>
-        <a href="materi1"><p>Materi 2 blablablaa lorem ipsum dolor sit amet </p></a>
-      </div> -->
-
-
-        <!-- <div class="col-md-4">
-          <div class="box box-widget widget-user">
-            <div class="widget-user-header bg-aqua-active">
-              <img src="admin_lte/dist/img/banner_img.png">
-            </div>
-            <div class="box-footer">
-              <a href="materi1"><h4>Judul Materi 2</h4></a>
-            </div>
-          </div>
-        </div> -->
-
-
         <div class="row">
 
           <div class="col-md-4">
@@ -62,7 +38,7 @@
           <div class="col-md-4">
             <div class="box box-subbab">
               <div class="box-gambar">
-                <img class="img-responsive pad" src="admin_lte/dist/img/advance.png" alt="Photo">
+                <img class="img-responsive pad" src="admin_lte/dist/img/2538.jpg" alt="Photo">
                 <p>I took this photo this morning. What do you guys think?</p>
               </div>    
               <div class="box-caption">
@@ -74,7 +50,7 @@
           <div class="col-md-4">
             <div class="box box-subbab">
               <div class="box-gambar">
-                <img class="img-responsive pad" src="admin_lte/dist/img/advance.png" alt="Photo">
+                <img class="img-responsive pad" src="admin_lte/dist/img/learning.png" alt="Photo">
                 <p>I took this photo this morning. What do you guys think?</p>
               </div>    
               <div class="box-caption">
@@ -83,6 +59,44 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box box-subbab">
+              <div class="box-gambar">
+                <img class="img-responsive pad" src="admin_lte/dist/img/4398.jpg" alt="Photo">
+                <p>I took this photo this morning. What do you guys think?</p>
+              </div>
+              <div class="box-caption">
+                <a href="materi1"><h4>Judul Materi 2</h4></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box box-subbab">
+              <div class="box-gambar">
+                <img class="img-responsive pad" src="admin_lte/dist/img/2539.jpg" alt="Photo">
+                <p>I took this photo this morning. What do you guys think?</p>
+              </div>    
+              <div class="box-caption">
+                <a href="materi1"><h4>Judul Materi 2</h4></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box box-subbab">
+              <div class="box-gambar">
+                <img class="img-responsive pad" src="admin_lte/dist/img/4589.jpg" alt="Photo">
+                <p>I took this photo this morning. What do you guys think?</p>
+              </div>    
+              <div class="box-caption">
+                <a href="materi1"><h4>Judul Materi 2</h4></a>
+              </div>
+            </div>
+          </div>
         </div>
 
 
