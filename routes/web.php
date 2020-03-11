@@ -45,6 +45,9 @@
     Route::get('/materi1', function () {
         return view('siswa.materi1');
     });
+    Route::get('/materi2', function () {
+        return view('siswa.materi2');
+    });
 // });
 
 

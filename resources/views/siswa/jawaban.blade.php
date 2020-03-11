@@ -20,12 +20,14 @@
     <!-- Main content -->
 
     <section class="content">
+
+
       <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
+        <div class="col-md-3"></div>
+        <div class="col-md-6" align="center">
           <div class="small-box bg-maroon">
             <div class="inner">
-              <p>Score</p>
+              <p>Nilai</p>
             </div>
             <div class="inner">
               @foreach($simpanjawaban as $jawaban)
@@ -35,25 +37,22 @@
             <a href="kuis" class="small-box-footer">Ulangi kuis <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
+        <div class="col-md-3"></div>
       </div>
 
       <div class="row">
+
         <div class="col-md-12">
           <div class="box box-widget widget-user-2">
             <div class="widget-user-header bg-teal"> 
-              <div class="row">
-                <div class="col-md-1">
-                  <h1>1</h1>
-                </div>
-                <div class="col-md-11">
-                  <h3>Dalam Model OSI Layer, yang berfungsi untuk menerima data dari Session Layer adalah transport layer</h3>
-                  <p>lapisan transport layer adalah lapisan keempat dari model jaringan OSI. Lapisan transport bertanggung jawab untuk menyediakan layanan-layanan yang dapat diandalkan kepada protokol-potokol yang terletak di atasnya</p>
-                </div>
-              </div>
+              if(no_1 == "B")
+                    <h1>jawaban kamu benar</h1>
             </div>
           </div>
-        </div>
+        </div>   
+
       </div>
+
 
     </section>  
 @endsection

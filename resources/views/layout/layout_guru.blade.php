@@ -115,17 +115,6 @@
           </a>
         </li>
 
-        <li  class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Master</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="tambahuser"><i class="fa fa-circle-o"></i> Tambah User </a></li>
-          </ul>
-        </li>
 
         <li class="treeview">
           <a href="#">
@@ -136,6 +125,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="tambahuser"><i class="fa fa-circle-o"></i> Tambah User </a>
             <li><a href="guru"><i class="fa fa-circle-o"></i> Guru</a></li>
             <li><a href="siswa"><i class="fa fa-circle-o"></i> Siswa</a></li>
           </ul>
@@ -143,7 +133,7 @@
 
         <li>
           <a href="gurusoal">
-            <i class="fa fa-th"></i> <span>Soal</span>
+            <i class="fa fa-th"></i> <span>Kuis</span>
           </a>
         </li>
 
@@ -156,9 +146,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="subbab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
-            <li><a href="guruvideo"><i class="fa fa-circle-o"></i> Video</a></li>
             <li><a href="tambahmateri"><i class="fa fa-circle-o"></i> Tambah Materi</a></li>
+            <li><a href="subbab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
           </ul>
         </li>
       </ul>

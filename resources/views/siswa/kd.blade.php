@@ -8,7 +8,7 @@
             <div class="panel-body">
                 <h2>Kompetensi</h2>
                 <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="dashsiswa"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">Kompetensi</li>
                 </ol>
             </div>

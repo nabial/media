@@ -22,10 +22,10 @@
       <div class="row">
         <form action="{{route('simpanjawaban')}}" method="post">
           {{ csrf_field()}}
-          <div class="form-group">
+          <div class="form-kuis">
             <label>User Id :</label>
             <div>          
-              <input type="text" class="form-control"  name="user_id">
+              <input type="text" class="form-control"  name="user_id" required="">
             </div>
           </div>
         <!-- soal 1 -->
@@ -352,6 +352,7 @@
             </div>
           </div>
         </div>
+        
         <div class="col-md-12">
           <button type="submit" class="btn btn-primary"> Submit </button>
         </div>

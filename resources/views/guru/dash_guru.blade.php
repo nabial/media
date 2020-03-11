@@ -1,20 +1,9 @@
 @extends('layout.layout_guru')
 
 @section('content')
-<section class="content-header">
-      <h1>
-        Dashboard
-        <small>Control panel</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
-</section>
+    <section class="content-homesiswa">
 
-    <!-- Main content -->
-    <section class="content">
-      
-    	hallo
+      <img src="admin_lte/dist/img/coba2.jpg" width="100%" style="position: fixed;">
+
     </section>
 @endsection
