@@ -7,11 +7,10 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h1>Form Insert User</h1>
+                <h2>Form Tambah User</h2>
                 <ol class="breadcrumb">
                     <li><a href="{{asset('/dashguru')}}"><i class="fa fa-dashboard"></i> Home</a></li>
-                    <li><a href="{{asset('/dashguru')}}"></i>User</a></li>
-                    <li class="active">Insert User</li>
+                    <li class="active">Tambah User</li>
                 </ol>
             </div>
         </div>

@@ -23,37 +23,22 @@
       <div class="row">
 
         <div class="col-md-12">
+          @foreach($materivideo as $materi)  
           <div class="box box-default collapsed-box">
             <div class="box-header with-border">
-              <h3 class="box-title"><i class="fa fa-video-camera"></i> Tutorial hmmm</h3>
+              <h3 class="box-title"><i class="fa fa-video-camera"></i> Videoo</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-angle-down"></i>
                 </button>
               </div>
             </div>
-            <!-- @foreach($materivideo as $video) -->
-            <div class="box-body">
-                <video> <!-- {{ $materi->video }} --> </video>
-            </div>
-           <!--  @endforeach -->
+            
+                <video width="400px" height="350px" controls=""> 
+                  <source src="{{ url('video/'.$materi->video) }}" type="video/mp4">
+                </video>
+           
           </div>
-        </div>
-
-        <div class="col-md-12">
-          <div class="box box-default collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title"><i class="fa fa-video-camera"></i> Tutorial manjah</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-angle-down"></i>
-                </button>
-              </div>
-            </div>
-            <div class="box-body">
-              isi video
-              lorem ipsum dolor sit amet
-              lorem ipsum dolor sit amet
-            </div>
-          </div>
+           @endforeach
         </div>
 
 

@@ -20,20 +20,37 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
-    protected $redirectTo = '/home';
+    public function authenticated()
+    {
+        $user = \Auth::user();
+        if(\Auth::check()){
+            if ($user->isguru())
+            {
+                return redirect('guru/dashguru');
+            }
+            else if ($user->issiswa())
+            {
+                return redirect('siswa/dashsiswa');
+            }
+        }
+        else
+            return redirect()-route('login');
+    }
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function logout(Request $request)
+    {
+        $this->guard()->logout();
+ 
+        $request->session()->flush();
+ 
+        $request->session()->regenerate();
+ 
+        return redirect('/login');
     }
 }

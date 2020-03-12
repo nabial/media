@@ -5,19 +5,19 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Facades\Hash;
 
 class User extends Authenticatable
 {
     use Notifiable;
     protected $table = 'users';
-    protected $primaryKey = 'id';
+    protected $primaryKey = 'email';
     
     public $incrementing = false;
     
     protected $fillable = [
-
-        'nama',
-        'email', 
+        'id',
+        'nama', 
         'password',
         'no_telp',
         'status',
@@ -44,6 +44,20 @@ class User extends Authenticatable
     public function jawaban()
     {
         return $this->hasMany(Jawaban::class);
+    }
+
+    const GURU_TYPE  = 'guru';
+    const SISWA_TYPE = 'siswa';
+
+    public function isGuru()    {        
+        return $this->status === self::GURU_TYPE;    
+    }
+    public function isSiswa()    {        
+        return $this->status === self::SISWA_TYPE;    
+    }
+    public function setPasswordAttribute($password)
+    {
+        $this->attributes['password'] = \Hash::make($password);
     }
     
 }

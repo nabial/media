@@ -6,9 +6,9 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h1>Daftar User</h1>
+                <h1>Daftar Guru</h1>
                 <ol class="breadcrumb">
-                    <li><a href="{{asset('/superadmin/home')}}"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li><a href="dashguru"><i class="fa fa-dashboard"></i> Home</a></li>
                     <li class="active">User</li>
                 </ol>
             </div>
