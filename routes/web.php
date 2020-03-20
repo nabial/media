@@ -11,7 +11,7 @@
 |
 */
 // COBA
-// Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
+Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
     Route::get('/dashguru','UserController@dashguru');
     Route::get('/tambahmateri','MateriController@insertmateri');
     Route::get('/tambahuser','UserController@insertuser');
@@ -20,16 +20,22 @@
     Route::get('/siswa','UserController@siswa');
     Route::get('/subbab','MateriController@subbab');
     Route::get('/guruvideo','MateriController@video');
-    Route::get('/guru', function () {
-        return view('guru.guru');
-    });
+    Route::get('/guru','UserController@guru');
+    Route::get('/nilai','JawabanController@nilai');
     Route::get('/gurusoal', function () {
         return view('guru.soal');
     });
-// });
+    Route::get('/materiguru1', function () {
+        return view('guru.materiguru1');
+    });
+    Route::get('/materiguru2', function () {
+        return view('guru.materiguru2');
+    });
+
+});
 
 
-// Route::group(['prefix' => 'siswa',  'middleware' => 'is_siswa'], function(){
+Route::group(['prefix' => 'siswa',  'middleware' => 'is_siswa'], function(){
     Route::get('/dashsiswa','UserController@dashsiswa');
     Route::get('/jawaban', 'JawabanController@jawaban');
     Route::post('/simpan/jawaban', 'JawabanController@simpanjawaban')->name('simpanjawaban');
@@ -48,7 +54,7 @@
     Route::get('/materi2', function () {
         return view('siswa.materi2');
     });
-// });
+});
 
 
 Auth::routes();

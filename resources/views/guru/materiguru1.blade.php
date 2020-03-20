@@ -1,4 +1,4 @@
-@extends('layout.layout_siswa')
+@extends('layout.layout_guru')
 
 @section('content')
 <section class="content-header">
@@ -8,7 +8,7 @@
             <div class="panel-body">
                 <h2>Konsep routing dinamis</h2>
                 <ol class="breadcrumb">
-                    <li><a href="dashsiswa"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="dashguru"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">Konsep routing dinamis</li>
                 </ol>
             </div>
@@ -64,7 +64,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">RIP</a> Routing Information Protocol </h3>
+                      <h3 class="timeline-header"><a href="#">RIP</a> Routing Information Protocol </h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -73,7 +73,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-aqua"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header no-border"><a href="materi2">OSPF</a> Open Short Path First</h3>
+                      <h3 class="timeline-header no-border"><a href="#">OSPF</a> Open Short Path First</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -82,7 +82,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">BGP</a> Border Gateway Protocol</h3>
+                      <h3 class="timeline-header"><a href="#">BGP</a> Border Gateway Protocol</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -91,7 +91,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-aqua"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">EIGRP</a> Enhanced Interior Gateway Routing Protocol</h3>
+                      <h3 class="timeline-header"><a href="#">EIGRP</a> Enhanced Interior Gateway Routing Protocol</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -100,7 +100,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">AS</a> Autonomous System</h3>
+                      <h3 class="timeline-header"><a href="#">AS</a> Autonomous System</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -185,9 +185,9 @@
                         <p>Semangat &hellip;</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="materi1"><button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Belum, Baca konsep routing dinamis lagi</button></a>
+                        <a href="materiguru1"><button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Belum, Baca konsep routing dinamis lagi</button></a>
                         
-                        <a href="materi2"><button type="button" class="btn btn-outline"> Sudah, Aku mau baca materi selanjutnya</button></a>
+                        <a href="materiguru2"><button type="button" class="btn btn-outline"> Sudah, Aku mau baca materi selanjutnya</button></a>
                       </div>
                     </div>
                   </div>

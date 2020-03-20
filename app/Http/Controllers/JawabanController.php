@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
@@ -13,7 +14,7 @@ class JawabanController extends Controller
     {
     	$jawaban = new jawaban;
     	$jawaban->id = $request->id;
-    	$jawaban->user_id = $request->user_id;
+    	$jawaban->user_id = Auth::user()->email;
         $jawaban->no_1 = $request->no_1;
         $jawaban->no_2 = $request->no_2;
         $jawaban->no_3 = $request->no_3;
@@ -36,7 +37,7 @@ class JawabanController extends Controller
         $jawaban->no_20 = $request->no_20;
 
         $score = 0;
-        if ($jawaban->no_1 == "B")
+        if ($jawaban->no_1 == "A")
         {
             $score += 10;
         }
@@ -56,23 +57,23 @@ class JawabanController extends Controller
         {
             $score += 10;
         }
-        if ($jawaban->no_6 == "A")
+        if ($jawaban->no_6 == "B")
         {
             $score += 10;
         }
-        if ($jawaban->no_7 == "A")
+        if ($jawaban->no_7 == "B")
         {
             $score += 10;
         }
-        if ($jawaban->no_8 == "A")
+        if ($jawaban->no_8 == "B")
         {
             $score += 10;
         }
-        if ($jawaban->no_9 == "A")
+        if ($jawaban->no_9 == "C")
         {
             $score += 10;
         }
-        if ($jawaban->no_10 == "A")
+        if ($jawaban->no_10 == "C")
         {
             $score += 10;
         }
@@ -80,14 +81,20 @@ class JawabanController extends Controller
     	
     	
     	if ($jawaban->save()){
-    		return redirect('/jawaban');
+    		return redirect('/siswa/jawaban');
     	}
 
     }
 
     public function jawaban()
     {
-        $data['simpanjawaban'] = Jawaban::orderby('created_at', 'desc')->limit(1)->get();
+        $data['simpanjawaban'] = Jawaban::where('user_id', Auth::user()->email)->orderBy('created_at','desc')->limit(1)->get();
         return view('siswa.jawaban',$data);
+    }
+
+    public function nilai()
+    {
+        $data['hasil'] = Jawaban::all();
+        return view('guru.nilai',$data);
     }
 }
