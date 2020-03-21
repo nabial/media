@@ -65,7 +65,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="{{asset('admin_lte/dist/img/avatar5.png')}}" class="user-image" alt="User Image">
-              <span class="hidden-xs">Nama</span>
+              <span class="hidden-xs">{{ Auth::user()->nama }}</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -73,16 +73,20 @@
                 <img src="{{asset('admin_lte/dist/img/avatar5.png')}}" class="img-circle" alt="User Image">
 
                 <p>
-                  Nama - Guru
+                  {{ Auth::user()->nama }} - Guru
                 </p>
               </li>
               <!-- Menu Footer-->
               <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <div class="pull-right" >
+                    <a class="btn btn-default btn-flat" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
                 </div>
               </li>
             </ul>
@@ -101,7 +105,7 @@
           <img src="{{asset('admin_lte/dist/img/avatar5.png')}}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Nama</p>
+          <p>{{ Auth::user()->nama }}</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -133,7 +137,13 @@
 
         <li>
           <a href="gurusoal">
-            <i class="fa fa-th"></i> <span>Kuis</span>
+            <i class="fa fa-th"></i> <span>Soal</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="nilai">
+            <i class="fa fa-th"></i> <span>Nilai</span>
           </a>
         </li>
 

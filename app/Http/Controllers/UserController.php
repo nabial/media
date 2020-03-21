@@ -21,9 +21,15 @@ class UserController extends Controller
 
     public function siswa()
     {
-    	$data['datasiswa'] = User::all();
-    	return view('guru.siswa',$data);
+        $data['datasiswa'] = User::where('status','siswa')->get();
+        return view('guru.siswa',$data);
     } 
+
+    public function guru()
+    {
+        $data['dataguru'] = User::where('status','guru');
+        return view('guru.guru',$data);
+    }
 
     public function insertuser()
     {
@@ -40,7 +46,7 @@ class UserController extends Controller
     	$users->no_tlp = $request->no_tlp;
     	$users->status = $request->status;
     	if ($users->save()){
-    		return redirect('/tambahuser');
+    		return redirect('/guru/tambahuser');
     	}
 
     } 

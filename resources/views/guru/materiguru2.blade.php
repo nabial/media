@@ -1,4 +1,4 @@
-@extends('layout.layout_siswa')
+@extends('layout.layout_guru')
 
 @section('content')
 <section class="content-header">
@@ -8,7 +8,7 @@
             <div class="panel-body">
                 <h2>Jenis-jenis routing dinamis</h2>
                 <ol class="breadcrumb">
-                    <li><a href="dashsiswa"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="dashguru"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">Jenis-jenis routing dinamis</li>
                 </ol>
             </div>
@@ -249,9 +249,9 @@
                         <p>Semangat &hellip;</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="materi2"><button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Belum, Baca jenis-jenis routing dinamis lagi</button></a>
+                        <a href="materiguru2"><button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Belum, Baca jenis-jenis routing dinamis lagi</button></a>
                         
-                        <a href="kuis"><button type="button" class="btn btn-outline"> Sudah, Aku siap untuk kuis</button></a>
+                        <a href="soal"><button type="button" class="btn btn-outline"> Sudah, Aku siap untuk kuis</button></a>
                       </div>
                     </div>
                   </div>

@@ -54,7 +54,7 @@
                 <p>Tahukah kamu tentang routing dinamis?</p>
               </div>
               <div class="box-caption">
-                <a href="materi1"><h4>Pengenlanan Routing Dinamis</h4></a>
+                <a href="materiguru1"><h4>Pengenlanan Routing Dinamis</h4></a>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
                 <p>???</p>
               </div>    
               <div class="box-caption">
-                <a href="materi2"><h4>Jenis-jenis routing dinamis</h4></a>
+                <a href="materiguru2"><h4>Jenis-jenis routing dinamis</h4></a>
               </div>
             </div>
           </div>

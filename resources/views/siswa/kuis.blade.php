@@ -22,19 +22,13 @@
       <div class="row">
         <form action="{{route('simpanjawaban')}}" method="post">
           {{ csrf_field()}}
-          <div class="form-kuis">
-            <label>User Id :</label>
-            <div>          
-              <input type="text" class="form-control"  name="user_id" required="">
-            </div>
-          </div>
         <!-- soal 1 -->
         <div class="col-md-12">
           <div class="box box-widget widget-user-2">
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>1. sebutkan ibukota indonesia ?</h1>
+                  <h1>1. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -61,7 +55,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>2. sebutkan ibukota indonesia ?</h1>
+                  <h1>2. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -89,7 +83,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>3. sebutkan ibukota indonesia ?</h1>
+                  <h1>3. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -116,7 +110,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>4. sebutkan ibukota indonesia ?</h1>
+                  <h1>4. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -143,7 +137,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>5. sebutkan ibukota indonesia ?</h1>
+                  <h1>5. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -170,7 +164,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>6. sebutkan ibukota indonesia ?</h1>
+                  <h1>6. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -197,7 +191,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>7. sebutkan ibukota indonesia ?</h1>
+                  <h1>7. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -224,7 +218,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>8. sebutkan ibukota indonesia ?</h1>
+                  <h1>8. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -251,7 +245,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>9. sebutkan ibukota indonesia ?</h1>
+                  <h1>9. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -278,7 +272,7 @@
             <div class="widget-user-header bg-teal"> 
               <div class="row">
                 <div class="col-md-12">
-                  <h1>10. sebutkan ibukota indonesia ?</h1>
+                  <h1>10. Ibukota indonesia adalah ?</h1>
                 </div>
               </div>
             </div>
@@ -299,59 +293,6 @@
           </div>
         </div>
 
-        <!-- soal 11 -->
-        <div class="col-md-12">
-          <div class="box box-widget widget-user-2">
-            <div class="widget-user-header bg-teal"> 
-              <div class="row">
-                <div class="col-md-12">
-                  <h1>11. sebutkan ibukota indonesia ?</h1>
-                </div>
-              </div>
-            </div>
-            <div class="box-radio">
-              <div class="radio">
-                <label><input type="radio" name="no_11" value="A" >Halo</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="no_11" value="B" >Halo</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="no_11" value="C" >Halo</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="no_11" value="D" >Halo</label>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- soal 12 -->
-        <div class="col-md-12">
-          <div class="box box-widget widget-user-2">
-            <div class="widget-user-header bg-teal"> 
-              <div class="row">
-                <div class="col-md-12">
-                  <h1>12. sebutkan ibukota indonesia ?</h1>
-                </div>
-              </div>
-            </div>
-            <div class="box-radio">
-              <div class="radio">
-                <label><input type="radio" name="no_12" value="A" >Halo</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="no_12" value="B" >Halo</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="no_12" value="C" >Halo</label>
-              </div>
-              <div class="radio">
-                <label><input type="radio" name="no_12" value="D" >Halo</label>
-              </div>
-            </div>
-          </div>
-        </div>
         
         <div class="col-md-12">
           <button type="submit" class="btn btn-primary"> Submit </button>
