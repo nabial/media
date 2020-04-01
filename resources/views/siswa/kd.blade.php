@@ -20,9 +20,9 @@
     <!-- Main content -->
     <section class="content">
 
-      <div class="row">
+      <!-- <div class="row">
             <div class="col-md-4">
-              <div class="box box-warning direct-chat direct-chat-warning">
+              <div class="box box-navy direct-chat direct-chat-purple">
                 <div class="box-header with-border">
                   <h3 class="box-title">Kompetensi Dasar</h3>
                   <div class="box-tools pull-right">
@@ -41,7 +41,7 @@
             </div> 
 
              <div class="col-md-4">
-              <div class="box box-warning direct-chat direct-chat-warning">
+              <div class="box box-primary direct-chat direct-chat-info">
                 <div class="box-header with-border">
                   <h3 class="box-title">Indikator Pencapaian Kompetensi</h3>
                   <div class="box-tools pull-right">
@@ -77,7 +77,45 @@
 
               </div>
             </div>   
+      </div> -->
+
+      <!-- START ALERTS AND CALLOUTS -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box box-default">
+            <div class="box-header with-border">
+              <i class="fa fa-bullhorn"></i>
+
+              <h3 class="box-title"></h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="callout callout-info">
+                <h4>Kompetensi Dasar</h4>
+
+                <p>Mengevaluasi konsep routing dinamis.</p>
+              </div>
+              <div class="callout callout-info">
+                <h4>Indikator Pencapaian Kompetensi</h4>
+
+                <p>Menjelaskan konsep routing dinamis & Mengklasifikasikan jenis routing dinamis</p>
+              </div>
+              <div class="callout callout-info">
+                <h4>Tujuan pembelajaran</h4>
+
+                <p>Siswa mampu menjelaskan konsep routing dinamis & mampu mengklasifikasikan jenis routing dinamis</p>
+              </div>
+
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
       </div>
+      <!-- /.row -->
+      <!-- END ALERTS AND CALLOUTS -->
 
     </section>
     

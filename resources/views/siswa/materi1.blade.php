@@ -9,6 +9,7 @@
                 <h2>Konsep routing dinamis</h2>
                 <ol class="breadcrumb">
                     <li><a href="dashsiswa"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="bab"><i class="fa fa-pie-chart"></i> Materi</a></li>
                     <li class="active">Konsep routing dinamis</li>
                 </ol>
             </div>
@@ -34,6 +35,7 @@
                 <div class="post">
                   <div class="row">
                     <div class="col-md-8">
+                      <p>Routing dinamis bekerja untuk menemukan seluruh jaringan yang ada dalam subnet, dan routing ini selalu melakukan update network pada routing table, sehingga ketika ada masalah (trouble) atau ada jaringan yang terputus bisa dapat terdekteksi langsung tanpa harus dicek satu persatu.</p>
                       <p>Routing dinamis adalah routing yang dilakukan oleh router dengan cara membuat jalur komunikasi data secara otomatis sesuai dengan pengaturan yang dibuat. Jika ada perubahan topologi di dalam jaringan, maka router akan otomatis membuat jalur routing yang baru. Routing dinamis ini berada pada lapisan network layer jaringan komputer dalam TCP/IP Protocol Suites.</p>
                       <p>ciri ciri dynamic routing adalah
                         <ul>
@@ -57,7 +59,7 @@
               <div class="tab-pane" id="timeline">
                 <ul class="timeline timeline-inverse">
                   <li class="time-label">
-                        <span class="bg-yellow">
+                        <span class="bg-teal">
                           jenis routing dinamis
                         </span>
                   </li>
@@ -71,7 +73,7 @@
                   </li>
 
                   <li>
-                    <i class="fa fa-bookmark-o bg-aqua"></i>
+                    <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
                       <h3 class="timeline-header no-border"><a href="materi2">OSPF</a> Open Short Path First</h3>
                       <div class="timeline-body">
@@ -89,7 +91,7 @@
                   </li>
 
                   <li>
-                    <i class="fa fa-bookmark-o bg-aqua"></i>
+                    <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
                       <h3 class="timeline-header"><a href="materi2">EIGRP</a> Enhanced Interior Gateway Routing Protocol</h3>
                       <div class="timeline-body">
@@ -113,7 +115,7 @@
               <div class="tab-pane" id="settings">
                 <ul class="timeline timeline-inverse">
                   <li class="time-label">
-                        <span class="bg-yellow">
+                        <span class="bg-teal">
                           kelebihan routing dinamis
                         </span>
                   </li>
@@ -136,7 +138,7 @@
                   </li>
 
                   <li class="time-label">
-                        <span class="bg-yellow">
+                        <span class="bg-teal">
                           kekurangan routing dinamis
                         </span>
                   </li>
@@ -150,44 +152,37 @@
                           <li>Beban kerja router menjadi lebih berat karena selalu memperbarui IP Table pada setiap waktu tertentu</li>
                           <li>Kecepatan pengenalan dan kelengkapan IP Table terbilang lama karena router membroadcast ke semua router lainnya sampai ada yang cocok sehingga setelah konfigurasi harus menunggu beberapa saat agar setiap router mendapat semua alamat IP yang ada</li>
                         </ul>
+                        <p></p>
+                        <b>Bagaimana ?</b>
+                        <div class="row">
+                          <div class="col-md-3">
+                            <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
+                              Sudah faham?
+                            </button>
+                          </div>
+                          <div class="col-md-3"></div>
+                          <div class="col-md-3"></div>
+                        </div>
                       </div>
                     </div>
                   </li>
                 </ul>
 <!-- button pop up -->
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="box box-default">
-                      <div class="box-header with-border">
-                        <h3 class="box-title" style="text-align: center;">Bagamimana ?</h3>
-                      </div>
-                      <div class="box-body">
-                        <button type="button" class="btn btn-danger" id="btn-materi1" data-toggle="modal" data-target="#modal-danger">
-                          Apakah kamu sudah memhami konsep materi Routing Dinamis ?
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                 <!--  <button type="button" class="btn btn-danger" id="btn-materi1" data-toggle="modal" data-target="#modal-danger">
-                  Apakah kamu sudah memhami konsep materi Routing Dinamis ?
-                  </button> -->
-
-                <div class="modal modal-danger fade" id="modal-danger">
+                <div class="modal modal-warning fade" id="modal-warning">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Sudah faham ? </h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Semangat &hellip;</p>
+                        <h4 class="modal-title">Sudah faham? </h4>
                       </div>
                       <div class="modal-footer">
                         <a href="materi1"><button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Belum, Baca konsep routing dinamis lagi</button></a>
                         
                         <a href="materi2"><button type="button" class="btn btn-outline"> Sudah, Aku mau baca materi selanjutnya</button></a>
+                      </div>
+                      <div class="modal-body">
+                        <p>Semangat ya &hellip;</p>
                       </div>
                     </div>
                   </div>

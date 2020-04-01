@@ -6,6 +6,58 @@
 }
 
 
+/* section-2 */
+.background{
+/*  background-color: #19345E;
+  padding-bottom: 100px;*/
+}
+.tekskiri h1{
+  font-family: muli;
+  padding-top: 180px;
+  color: #19345E;
+  font-size: 45px;
+  font-weight: bold;
+}
+.tekskiri p{
+  font-size: 16px;
+  font-family: 'SF Compact Display' , sans-serif;
+  color: #19345E;
+  padding-bottom: 20px;
+}
+/*.tekskiri img{
+  margin-left: -65px;
+  margin-top: -85px;
+  max-width: 100%;
+}*/
+.gambarkanan img{
+  width: 100%;
+  padding-top: 100px;
+}
+.btn-home{
+  color: white ;
+  background-color: #F47522;
+  border: 1px solid #F47522;
+  font-size: 18px;
+  font-family: 'roboto';
+  font-weight: bold;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.btn-home:hover{
+  color: #F47522;
+  border: 1px solid #F47522;
+  background-color: #ecf0f5;
+}
+@media (max-width: 1024px) {
+  .tekskiri h1{
+    padding-top: 80px;
+  }
+}
+/*end section-2*/
 
 .box-subbab {
   border: none;
@@ -43,7 +95,10 @@
 }
 
 .box-radio{
-  padding: 10px;
+  padding: 30px;
+  background-color: white;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .form-kuis{
@@ -55,3 +110,76 @@
   padding: 20px;
   font-size: 20px;
 }
+
+.box1{
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-weight: 500px;
+}
+
+.box-kuis{
+  background-color:#69D2E7;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.box-jawaban1{
+  background-color: #69D2E7;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.box-kuis2{
+  background-color: #8ECAE6;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.box-jawaban2{
+  background-color: #8ECAE6;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.box-kuis3{
+  background-color: #83CCC8;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.box-jawaban3{
+  background-color: #83CCC8;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.submit{
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  color: white;
+  background-color: #f39c12;
+}
+.submit:hover{
+  background-color: #da8c10;
+}
+
+.salah{
+  color: red;
+}
+.benar{
+  color: white;
+}
+
+@media (min-width: 1199px) {
+  .nomor{
+    text-align: center;
+    padding: 0px;
+  }
+}
+

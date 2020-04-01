@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use App\Jawaban;
 
+use App\Exports\JawabanExport;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Http\Controllers\Controller;
+
 class JawabanController extends Controller
 {
     public function simpanjawaban(Request $request)
@@ -37,11 +41,11 @@ class JawabanController extends Controller
         $jawaban->no_20 = $request->no_20;
 
         $score = 0;
-        if ($jawaban->no_1 == "A")
+        if ($jawaban->no_1 == "C")
         {
             $score += 10;
         }
-        if ($jawaban->no_2 == "A")
+        if ($jawaban->no_2 == "D")
         {
             $score += 10;
         }
@@ -49,19 +53,19 @@ class JawabanController extends Controller
         {
             $score += 10;
         }
-        if ($jawaban->no_4 == "A")
+        if ($jawaban->no_4 == "C")
         {
             $score += 10;
         }
-        if ($jawaban->no_5 == "A")
+        if ($jawaban->no_5 == "B")
         {
             $score += 10;
         }
-        if ($jawaban->no_6 == "B")
+        if ($jawaban->no_6 == "A")
         {
             $score += 10;
         }
-        if ($jawaban->no_7 == "B")
+        if ($jawaban->no_7 == "D")
         {
             $score += 10;
         }
@@ -69,11 +73,11 @@ class JawabanController extends Controller
         {
             $score += 10;
         }
-        if ($jawaban->no_9 == "C")
+        if ($jawaban->no_9 == "D")
         {
             $score += 10;
         }
-        if ($jawaban->no_10 == "C")
+        if ($jawaban->no_10 == "A")
         {
             $score += 10;
         }
@@ -96,5 +100,10 @@ class JawabanController extends Controller
     {
         $data['hasil'] = Jawaban::all();
         return view('guru.nilai',$data);
+    }
+ 
+    public function export_excel()
+    {
+        return Excel::download(new JawabanExport, 'nilai.xlsx');
     }
 }
