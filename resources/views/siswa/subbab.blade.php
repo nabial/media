@@ -22,26 +22,35 @@
 
         <div class="row">
 
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="box box-subbab">
               <div class="box-gambar">
-                <img class="img-responsive pad" src="admin_lte/dist/img/banner_img.png" alt="Photo" width="300">
-                <p>Tahukah kamu tentang routing dinamis?</p>
+                <img class="img-responsive" src="{{asset('admin_lte/dist/img/a1.png')}}">
               </div>
               <div class="box-caption">
-                <a href="materi1"><h4>Pengenlanan Routing Dinamis</h4></a>
+                <a href="materi3"><h4>Baca pengenalanan routing dinamis &#10141</h4></a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="box box-subbab">
               <div class="box-gambar">
-                <img class="img-responsive pad" src="admin_lte/dist/img/2538.jpg" alt="Photo" width="350">
-                <p>???</p>
+                <img class="img-responsive" src="{{asset('admin_lte/dist/img/a2.png')}}">
+              </div>
+              <div class="box-caption">
+                <a href="materi1"><h4>Baca konsep routing dinamis &#10141</h4></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box box-subbab">
+              <div class="box-gambar">
+                <img class="img-responsive" src="{{asset('admin_lte/dist/img/aa.png')}}">
               </div>    
               <div class="box-caption">
-                <a href="materi2"><h4>Jenis-jenis routing dinamis</h4></a>
+                <a href="materi2"><h4>Baca jenis-jenis routing dinamis &#10141</h4></a>
               </div>
             </div>
           </div>

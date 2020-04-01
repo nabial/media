@@ -32,6 +32,9 @@ Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
         return view('guru.materiguru2');
     });
 
+    Route::get('/jawaban', 'JawabanController@index');
+    Route::get('/jawaban/export_excel', 'JawabanController@export_excel');
+
 });
 
 
@@ -53,6 +56,9 @@ Route::group(['prefix' => 'siswa',  'middleware' => 'is_siswa'], function(){
     });
     Route::get('/materi2', function () {
         return view('siswa.materi2');
+    });
+    Route::get('/materi3', function () {
+        return view('siswa.materi3');
     });
 });
 

@@ -38,6 +38,6 @@ class Jawaban extends Model
 
     public function users()
     {
-        return $this->belongsTo(\App\User::class,'user_id','email');
+        return $this->belongsTo(\App\User::class,'user_id','email','jawaban');
     }
 }

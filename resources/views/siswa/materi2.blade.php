@@ -9,6 +9,7 @@
                 <h2>Jenis-jenis routing dinamis</h2>
                 <ol class="breadcrumb">
                     <li><a href="dashsiswa"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="bab"><i class="fa fa-pie-chart"></i> Materi</a></li>
                     <li class="active">Jenis-jenis routing dinamis</li>
                 </ol>
             </div>
@@ -60,7 +61,7 @@
 
                   <ul class="timeline timeline-inverse">
 	                  <li class="time-label">
-	                        <span class="bg-yellow">
+	                        <span class="bg-teal">
 	                          RIP menggunakan distance vector, antara lain:
 	                        </span>
 	                  </li>
@@ -99,7 +100,7 @@
 
                   <ul class="timeline timeline-inverse">
 	                  <li class="time-label">
-	                        <span class="bg-yellow">
+	                        <span class="bg-teal">
 	                          OSPF menggunakan algoritma link state, antara lain:
 	                        </span>
 	                  </li>
@@ -137,7 +138,7 @@
 
                   <ul class="timeline timeline-inverse">
 	                  <li class="time-label">
-	                        <span class="bg-yellow">
+	                        <span class="bg-teal">
 	                          BGP menggunakan algoritma distance vector, antara lain:
 	                        </span>
 	                  </li>
@@ -175,7 +176,7 @@
 
                   <ul class="timeline timeline-inverse">
 	                  <li class="time-label">
-	                        <span class="bg-yellow">
+	                        <span class="bg-teal">
 	                          EIGRP menggunakan algoritma advance vector, antara lain:
 	                        </span>
 	                  </li>
@@ -213,7 +214,7 @@
 
                   <ul class="timeline timeline-inverse">
 	                  <li class="time-label">
-	                        <span class="bg-yellow">
+	                        <span class="bg-teal">
 	                          dua mekanisme routing pada AS
 	                        </span>
 	                  </li>
@@ -226,18 +227,26 @@
 	                      		<li>Intradomain routing</li>
 	                      		<p>Intradomain routing merupakan mekanisme routing yang dilakukan di dalam sebuah AS</p>
 		                      	<li>Intredomain routing</li>
-		              			<p>Intredomain routing merupakan mekanisme routing yang dilakukan di luar antar-AS agar bisa berhubungan satu sama lain</p>
+		              			   <p>Intredomain routing merupakan mekanisme routing yang dilakukan di luar antar-AS agar bisa berhubungan satu sama lain</p>
 	                      	</ul>
-	                      </div>
+                          <p></p>
+                          <b>Bagaimana ?</b>
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
+                                Sudah faham?
+                              </button>
+                            </div>
+                            <div class="col-md-3"></div>
+                            <div class="col-md-3"></div>
+                          </div>
 	                    </div>
 	                  </li>
 	              </ul>
 <!-- button pop up -->
-                  <button type="button" class="btn btn-danger" id="btn-materi1" data-toggle="modal" data-target="#modal-danger">
-                  Apakah kamu sudah memhami jenis-jenis Routing Dinamis ?
-                  </button>
+                  
 
-                <div class="modal modal-danger fade" id="modal-danger">
+                <div class="modal modal-warning fade" id="modal-warning">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -245,13 +254,13 @@
                           <span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Sudah faham ? </h4>
                       </div>
-                      <div class="modal-body">
-                        <p>Semangat &hellip;</p>
-                      </div>
                       <div class="modal-footer">
                         <a href="materi2"><button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Belum, Baca jenis-jenis routing dinamis lagi</button></a>
                         
                         <a href="kuis"><button type="button" class="btn btn-outline"> Sudah, Aku siap untuk kuis</button></a>
+                      </div>
+                      <div class="modal-body">
+                        <p>Semangat &hellip;</p>
                       </div>
                     </div>
                   </div>

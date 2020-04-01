@@ -23,6 +23,8 @@
             <div class="panel block">
                 <div class="panel-body">
 
+                  <a href="/guru/jawaban/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+
                   <table id="mydatatables" class="table table-collapse table-hover table-light table-striped cell-border table-responsive">
                       <thead>
                         <th>id</th>
