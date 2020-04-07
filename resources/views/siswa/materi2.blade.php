@@ -35,27 +35,29 @@
               <div class="active tab-pane" id="rip">
                 <div class="post">
                   <div class="row">
-                    <div class="col-md-8">
-                      <p>RIP (routing information protocol) merupakan protokol yang memberikan routing tabel berdasarkan router yang terhubung langsung. Kemudian, router akan memberikan informasi router selanjutnya yang terhubung langsung dengan itu. Adapun informasi yang dipertukarkan oleh RIP yaitu host, network, subnet dan rute default.</p>
-                      <p>RIP terbagi menjadi dua bagian, yaitu :
-                      <p>a. RIPv1 (RIP versi 1)</p>
-                        <ul>
-                          <li>Hanya mendukung routing class-full</li>
-                          <li>Tidak ada info subnet yang dimasukkan dalam data perbaikan routing</li>
-                          <li>Tidak mendukung VLSM (Variabel Length Subnet Mask)</li>
-                          <li>Adanya fitur perbaikan routing broadcast</li>
-                        </ul>
-                       <p>b. RIPv2 (RIP versi 2)</p>
-                       	<ul>
-                       		<li>mendukung routing class-full dan class-less</li>
-                       		<li>info subnet dimasukkan dalam data perbaikan routing</li>
-                       		<li>mendukung VLSM (Variabel Length Subnet Mask)</li>
-                       		<li>perbaikan routing multicast</li>
-                       	</ul>
-                      </p>
+                    <div class="col-md-10">
+                      <div class="teks-materi">
+                        <p><b>RIP (Routing Information Protocol)</b> merupakan protokol yang memberikan routing tabel berdasarkan router yang terhubung langsung. Kemudian, router akan memberikan informasi router selanjutnya yang terhubung langsung dengan itu. Adapun informasi yang dipertukarkan oleh RIP yaitu host, network, subnet dan rute default.</p>
+                        <p><b>RIP terbagi menjadi dua bagian,</b> yaitu :
+                        <p>a. RIPv1 (RIP versi 1)</p>
+                          <ul>
+                            <li>Hanya mendukung routing class-full</li>
+                            <li>Tidak ada info subnet yang dimasukkan dalam data perbaikan routing</li>
+                            <li>Tidak mendukung VLSM (Variabel Length Subnet Mask)</li>
+                            <li>Adanya fitur perbaikan routing broadcast</li>
+                          </ul>
+                         <p>b. RIPv2 (RIP versi 2)</p>
+                          <ul>
+                            <li>mendukung routing class-full dan class-less</li>
+                            <li>info subnet dimasukkan dalam data perbaikan routing</li>
+                            <li>mendukung VLSM (Variabel Length Subnet Mask)</li>
+                            <li>perbaikan routing multicast</li>
+                          </ul>
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-md-4">
-                      <img src="admin_lte/dist/img/banner_img.png" width="300">
+                    <div class="col-md-2">
+                      
                     </div>
                   </div>
 
@@ -86,15 +88,15 @@
 <!-- tab rip -->
 
 <!-- ospf -->
-			<div class="active tab-pane" id="ospf">
+			<div class="tab-pane" id="ospf">
                 <div class="post">
                   <div class="row">
-                    <div class="col-md-8">
-                      <p>OSPF adalah sebuah routing protocol standar terbuka yang telah diimplementasika oleh sejumlah vendor jaringan dan dijelaskan di RFC 2328. Jika Anda memiliki banyak router, dan tidak semuanya adalah router Cisco, maka Anda tidak dapat menggunakan EIGRP. jadi pilihan Anda tinggal RIP v1, RIP v2, atau OSPF. Jika jaringan yang dikelola adalah jaringan besar, maka OSPF adalah pilihan satu-satunya. OSPF ini adalah sesuatu yang disebut route redistribution, yaitu sebuah layanan penerjemah antar routing protocol.</p>
+                    <div class="col-md-10">
+                      <p><b>OSPF (Open Short Path First)</b> adalah sebuah routing protocol standar terbuka yang telah diimplementasika oleh sejumlah vendor jaringan dan dijelaskan di RFC 2328. Jika Anda memiliki banyak router, dan tidak semuanya adalah router Cisco, maka Anda tidak dapat menggunakan EIGRP. jadi pilihan Anda tinggal RIP v1, RIP v2, atau OSPF. Jika jaringan yang dikelola adalah jaringan besar, maka OSPF adalah pilihan satu-satunya. OSPF ini adalah sesuatu yang disebut route redistribution, yaitu sebuah layanan penerjemah antar routing protocol.</p>
                       <p>OSPF bekerja dengan sebuah algoritma link-state yang disebut algoritma Dijkstra / SPF. Cara kerja dari protokol ini adalah: Pertama, sebuah “pohon” dengan jalur terpendek akan dibangun. Kemudian, routing table akan diisi dengan jalur-jalur terbaik yang dihasilkan dari “pohon” tersebut. OSPF hanya mendukung routing IP saja. Update routing akan dilakukan secara floaded saat terjadi perubahan topologi jaringan.</p>
                     </div>
-                    <div class="col-md-4">
-                      <img src="admin_lte/dist/img/banner_img.png" width="300">
+                    <div class="col-md-2">
+                      
                     </div>
                   </div>
 
@@ -125,14 +127,14 @@
 <!-- end ospf -->
 
 <!-- bgp -->
-			<div class="active tab-pane" id="bgp">
+			<div class="tab-pane" id="bgp">
                 <div class="post">
                   <div class="row">
-                    <div class="col-md-8">
-                      <p>BGP merupakan salah satu jenis routing protocol yang ada di dunia komunikasi data. Sebagai routing protocol, BGP memiliki kemampuan untuk melakukan pengumpulan rute, pertukaran rute dan menentukan rute terbaik menuju ke sebuah lokasi dalam sebuah jaringan. Routing protocol juga pasti dilengkapi dengan algoritma yang pintar dalam mencari jalan terbaik. Namun yang membedakan BGP dengan routing protocol lain adalah BGP termasuk ke dalam kategori routing protocol jenis Exterior Gateway Protocol (EGP). BGP merupakan “distance vector exterior gateway protocol” yang bekerja secara cerdas untuk merawat path-path ke jaringan lainnya. Update – update akan dikirim melalui koneksi TCP. Protokol ini biasa digunakan antara ISP dengan ISP dan atau antara client dengan client lainnya. Dalam implementasinya, protokol ini digunakan untuk membuat rute dari trafik internet antar autonomous system.</p>
+                    <div class="col-md-10">
+                      <p><b>BGP (Border Gateway Protocol)</b> merupakan salah satu jenis routing protocol yang ada di dunia komunikasi data. Sebagai routing protocol, BGP memiliki kemampuan untuk melakukan pengumpulan rute, pertukaran rute dan menentukan rute terbaik menuju ke sebuah lokasi dalam sebuah jaringan. Routing protocol juga pasti dilengkapi dengan algoritma yang pintar dalam mencari jalan terbaik. Namun yang membedakan BGP dengan routing protocol lain adalah BGP termasuk ke dalam kategori routing protocol jenis Exterior Gateway Protocol (EGP). BGP merupakan “distance vector exterior gateway protocol” yang bekerja secara cerdas untuk merawat path-path ke jaringan lainnya. Update – update akan dikirim melalui koneksi TCP. Protokol ini biasa digunakan antara ISP dengan ISP dan atau antara client dengan client lainnya. Dalam implementasinya, protokol ini digunakan untuk membuat rute dari trafik internet antar autonomous system.</p>
                     </div>
-                    <div class="col-md-4">
-                      <img src="admin_lte/dist/img/banner_img.png" width="300">
+                    <div class="col-md-2">
+                      
                     </div>
                   </div>
 
@@ -162,15 +164,15 @@
 <!-- end bgp -->
 
 <!-- eigrp -->
-			<div class="active tab-pane" id="eigrp">
+			<div class="tab-pane" id="eigrp">
                 <div class="post">
                   <div class="row">
-                    <div class="col-md-8">
-                      <p>EIGRP (Enhanced Interior Gateway Routing Protocol) merupakan hasil pengembangan dari routing protocol terdahulu yaitu IGRP yang keduanya adalah routing pengembangan dari CISCO. Pengembangan itu dihasilkan oleh perubahan dan bermacam-macam tuntutan dalam jaringan skala yang besar. EIGRP menggabungka kemampuan dari Link-State protocol dan Distance Vector protocol, terlebih lagi EIGRP memuat beberapa protocol penting yang secara baik meningkatkan efisiensi penggunaanya ke routing protocol lain.</p>
+                    <div class="col-md-10">
+                      <p><b>EIGRP (Enhanced Interior Gateway Routing Protocol)</b> merupakan hasil pengembangan dari routing protocol terdahulu yaitu IGRP yang keduanya adalah routing pengembangan dari CISCO. Pengembangan itu dihasilkan oleh perubahan dan bermacam-macam tuntutan dalam jaringan skala yang besar. EIGRP menggabungka kemampuan dari Link-State protocol dan Distance Vector protocol, terlebih lagi EIGRP memuat beberapa protocol penting yang secara baik meningkatkan efisiensi penggunaanya ke routing protocol lain.</p>
                       <p>EIGRP hanya bisa digunakan sesame router CISCO saja dan routing ini tidak didukung dalam jenis router yang lain.</p>
                     </div>
-                    <div class="col-md-4">
-                      <img src="admin_lte/dist/img/banner_img.png" width="300">
+                    <div class="col-md-2">
+                      
                     </div>
                   </div>
 
@@ -201,14 +203,14 @@
 <!-- end eigrp -->
 
 <!-- as -->
-			<div class="active tab-pane" id="as">
+			<div class="tab-pane" id="as">
                 <div class="post">
                   <div class="row">
-                    <div class="col-md-8">
-                      <p>Autonomous system atau yang disingkat AS merupakan suatu kelompok yang terdiri dari suatu lebih IP Prefix. Kemudian, kelompok tersebut terkoneksi sekaligus dijalankan oleh satu atau lebih operator jaringan di bawah satu kebijakan routing yang didefinisikan dengan jelas</p>
+                    <div class="col-md-10">
+                      <p><b> AS (Autonomous System)</b> atau yang disingkat AS merupakan suatu kelompok yang terdiri dari suatu lebih IP Prefix. Kemudian, kelompok tersebut terkoneksi sekaligus dijalankan oleh satu atau lebih operator jaringan di bawah satu kebijakan routing yang didefinisikan dengan jelas</p>
                     </div>
-                    <div class="col-md-4">
-                      <!-- <img src="admin_lte/dist/img/banner_img.png" width="300"> -->
+                    <div class="col-md-2">
+                      
                     </div>
                   </div>
 
@@ -234,7 +236,7 @@
                           <div class="row">
                             <div class="col-md-3">
                               <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
-                                Sudah faham?
+                                Sudah faham ?
                               </button>
                             </div>
                             <div class="col-md-3"></div>

@@ -31,7 +31,9 @@ Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
     Route::get('/materiguru2', function () {
         return view('guru.materiguru2');
     });
-
+    Route::get('/materiguru3', function () {
+        return view('guru.materiguru3');
+    });
     Route::get('/jawaban', 'JawabanController@index');
     Route::get('/jawaban/export_excel', 'JawabanController@export_excel');
 
@@ -62,6 +64,9 @@ Route::group(['prefix' => 'siswa',  'middleware' => 'is_siswa'], function(){
     });
 });
 
+Route:: get ('/', function () {
+       return view('auth.login');
+    });
 
 Auth::routes();
 

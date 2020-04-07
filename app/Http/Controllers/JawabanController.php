@@ -98,6 +98,7 @@ class JawabanController extends Controller
 
     public function nilai()
     {
+        $data['no'] = 1;
         $data['hasil'] = Jawaban::all();
         return view('guru.nilai',$data);
     }

@@ -27,7 +27,7 @@ class UserController extends Controller
 
     public function guru()
     {
-        $data['dataguru'] = User::where('status','guru');
+        $data['dataguru'] = User::where('status','guru')->get();
         return view('guru.guru',$data);
     }
 

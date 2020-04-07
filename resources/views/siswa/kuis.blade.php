@@ -8,7 +8,7 @@
             <div class="panel-body">
                 <h3>Kuis</h3>
                 <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="dashsiswa"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">Kuis</li>
                 </ol>
             </div>

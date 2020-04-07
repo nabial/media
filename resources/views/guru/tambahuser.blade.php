@@ -7,9 +7,9 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h2>Form Tambah User</h2>
+                <h2>Tambah User</h2>
                 <ol class="breadcrumb">
-                    <li><a href="{{asset('/dashguru')}}"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li><a href="dashguru"><i class="fa fa-dashboard"></i> Home</a></li>
                     <li class="active">Tambah User</li>
                 </ol>
             </div>
@@ -50,7 +50,7 @@
                         <label>Pilih Status:</label>
                         <div>
                             <select class="form-control" name="status">
-                                <option value="" disabled selected hidden>Pilih role</option>
+                                <option value="" disabled selected hidden>Pilih status</option>
                                 <option value="siswa">Siswa</option>
                                 <option value="guru">Guru</option>
                             </select>

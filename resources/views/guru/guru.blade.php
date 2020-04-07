@@ -30,7 +30,6 @@
                         <th>Email</th>
                         <th>No Hanphone</th>
                         <th>Status</th>
-                        <th>Aksi</th>
                       </thead>
                       
                       <tbody> 
@@ -41,14 +40,6 @@
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->no_tlp }}</td>
                         <td>{{ $user->status }}</td>
-                        <td>
-                            <a href="#" class="btn btn-info btn-sm">
-                              <span class="fa fa-pencil"></span>
-                           </a>
-                           <a onclick="return confirm('Apakah anda yakin akan menghapus data ini ?')" href="#" class="btn btn-danger btn-sm">
-                              <span class="fa fa-trash"></span>
-                          </a>
-                        </td>
                       </tr>
                       @endforeach
                       </tbody>
