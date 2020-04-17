@@ -6,9 +6,9 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h2>Nilai Siwa</h2>
+                <h3>Nilai Siwa</h3>
                 <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="dashguru"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">Nilai siswa</li>
                 </ol>
             </div>
@@ -23,10 +23,11 @@
             <div class="panel block">
                 <div class="panel-body">
 
-                  <a href="/guru/jawaban/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+                  <a href="/guru/jawaban/export_excel" class="btn btn-primary my-3" target="_blank">Download Excel </a>
 
                   <table id="mydatatables" class="table table-collapse table-hover table-light table-striped cell-border table-responsive">
                       <thead>
+                        <th>No</th>
                         <th>id</th>
                         <th>Nama Siswa</th>
                         <th>Nilai</th>
@@ -35,6 +36,7 @@
                       <tbody> 
                       @foreach($hasil as $jawaban)
                       <tr>
+                        <td>{{ $no++ }}</td>
                         <td>{{ $jawaban->users->id }}</td>
                         <td>{{ $jawaban->users->nama }}</td>
                         <td>{{ $jawaban->score }}</td>
@@ -42,7 +44,6 @@
                       @endforeach
                       </tbody>
                   </table>
-                  <button type="button" class="btn btn-block btn-success btn-xs">Success</button>
                 </div>
             </div>
         </div>

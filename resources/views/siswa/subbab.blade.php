@@ -28,7 +28,7 @@
                 <img class="img-responsive" src="{{asset('admin_lte/dist/img/a1.png')}}">
               </div>
               <div class="box-caption">
-                <a href="materi3"><h4>Baca pengenalanan routing dinamis &#10141</h4></a>
+                <a href="materi3"><h4>Pengenalanan routing dinamis &#10141</h4></a>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 <img class="img-responsive" src="{{asset('admin_lte/dist/img/a2.png')}}">
               </div>
               <div class="box-caption">
-                <a href="materi1"><h4>Baca konsep routing dinamis &#10141</h4></a>
+                <a href="materi1"><h4>Konsep routing dinamis &#10141</h4></a>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
                 <img class="img-responsive" src="{{asset('admin_lte/dist/img/aa.png')}}">
               </div>    
               <div class="box-caption">
-                <a href="materi2"><h4>Baca jenis-jenis routing dinamis &#10141</h4></a>
+                <a href="materi2"><h4>Jenis-jenis routing dinamis &#10141</h4></a>
               </div>
             </div>
           </div>

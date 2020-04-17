@@ -24,6 +24,7 @@
   color: #19345E;
   padding-bottom: 20px;
 }
+
 /*.tekskiri img{
   margin-left: -65px;
   margin-top: -85px;
@@ -181,5 +182,17 @@
     text-align: center;
     padding: 0px;
   }
+}
+
+.teks-materi p li{
+  font-size: 16px;
+}
+.btn-faham{
+  font-size: 16px;
+}
+.box-peraturan {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 

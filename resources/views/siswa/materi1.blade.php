@@ -25,29 +25,31 @@
       <div class="col-md-12">
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#activity" data-toggle="tab">Konsep Routing dinamis</a></li>
-              <li><a href="#timeline" data-toggle="tab">Jenis Routing</a></li>
-              <li><a href="#settings" data-toggle="tab">Kelebihan & Kekurangan</a></li>
+              <li class="active"><a href="#activity" data-toggle="tab">1. Konsep Routing dinamis</a></li>
+              <li><a href="#timeline" data-toggle="tab">2. Jenis Routing</a></li>
+              <li><a href="#settings" data-toggle="tab">3. Kelebihan & Kekurangan</a></li>
             </ul>
             <div class="tab-content">
 <!-- tab 1 -->
               <div class="active tab-pane" id="activity">
                 <div class="post">
                   <div class="row">
-                    <div class="col-md-8">
-                      <p>Routing dinamis bekerja untuk menemukan seluruh jaringan yang ada dalam subnet, dan routing ini selalu melakukan update network pada routing table, sehingga ketika ada masalah (trouble) atau ada jaringan yang terputus bisa dapat terdekteksi langsung tanpa harus dicek satu persatu.</p>
-                      <p>Routing dinamis adalah routing yang dilakukan oleh router dengan cara membuat jalur komunikasi data secara otomatis sesuai dengan pengaturan yang dibuat. Jika ada perubahan topologi di dalam jaringan, maka router akan otomatis membuat jalur routing yang baru. Routing dinamis ini berada pada lapisan network layer jaringan komputer dalam TCP/IP Protocol Suites.</p>
-                      <p>ciri ciri dynamic routing adalah
-                        <ul>
-                          <li>Router berbagi informasi routing secara otomatis</li>
-                          <li>Jumlah gateway sangat banyak</li>
-                          <li>Routing tabel dibuat secara dinamik</li>
-                          <li>Membutuhkan protokol routing (contohnya RIP ,OSPF, dll )</li>
-                        </ul>
-                      </p>
+                    <div class="col-md-10">
+                      <div class="teks-materi">
+                        <p>Routing dinamis bekerja untuk menemukan seluruh jaringan yang ada dalam subnet, dan routing ini selalu melakukan update network pada routing table, sehingga ketika ada masalah (trouble) atau ada jaringan yang terputus bisa dapat terdekteksi langsung tanpa harus dicek satu persatu.</p>
+                        <p>Routing dinamis adalah <b> routing yang dilakukan oleh router dengan cara membuat jalur komunikasi data secara otomatis sesuai dengan pengaturan yang dibuat.</b> Jika ada perubahan topologi di dalam jaringan, maka router akan otomatis membuat jalur routing yang baru. Routing dinamis ini berada pada lapisan network layer jaringan komputer dalam TCP/IP Protocol Suites.</p>
+                        <p><b>Ciri-ciri routing dinamis</b> sebagai beriku :
+                          <ul>
+                            <li>Router berbagi informasi routing secara otomatis</li>
+                            <li>Jumlah gateway sangat banyak</li>
+                            <li>Routing tabel dibuat secara dinamik</li>
+                            <li>Membutuhkan protokol routing (contohnya RIP ,OSPF, BGP, EIGRP, AS )</li>
+                          </ul>
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-md-4">
-                      <img src="admin_lte/dist/img/banner_img.png" width="300">
+                    <div class="col-md-2">
+                     
                     </div>
                   </div>
                   
@@ -66,7 +68,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">RIP</a> Routing Information Protocol </h3>
+                      <h3 class="timeline-header no-border"><b>RIP</b> - Routing Information Protocol </h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -75,7 +77,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header no-border"><a href="materi2">OSPF</a> Open Short Path First</h3>
+                      <h3 class="timeline-header no-border"><b>OSPF</b> - Open Short Path First</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -84,7 +86,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">BGP</a> Border Gateway Protocol</h3>
+                      <h3 class="timeline-header no-border"><b>BGP</b> - Border Gateway Protocol</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -93,7 +95,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">EIGRP</a> Enhanced Interior Gateway Routing Protocol</h3>
+                      <h3 class="timeline-header no-border"><b>EIGRP</b> - Enhanced Interior Gateway Routing Protocol</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -102,7 +104,7 @@
                   <li>
                     <i class="fa fa-bookmark-o bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a href="materi2">AS</a> Autonomous System</h3>
+                      <h3 class="timeline-header no-border"> <b>AS</b> - Autonomous System</h3>
                       <div class="timeline-body">
                       </div>
                     </div>
@@ -122,7 +124,7 @@
                   <li>
                     <i class="fa fa-plus bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"> Kelebihan menggunakan routing dinamis </h3>
+                      <h3 class="timeline-header"> <b> Kelebihan menggunakan routing dinamis</b> </h3>
                       <div class="timeline-body">
                         <ul>
                           <li>Cocok untuk area besar/luas</li>
@@ -144,30 +146,42 @@
                   </li>
               
                   <li>
-                    <i class="fa fa-minus bg-aqua"></i>
+                    <i class="fa fa-minus bg-blue"></i>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"> Kekurangan routing dinamis</h3>
+                      <h3 class="timeline-header"> <b>Kekurangan routing dinamis</b></h3>
                       <div class="timeline-body">
                         <ul>
                           <li>Beban kerja router menjadi lebih berat karena selalu memperbarui IP Table pada setiap waktu tertentu</li>
                           <li>Kecepatan pengenalan dan kelengkapan IP Table terbilang lama karena router membroadcast ke semua router lainnya sampai ada yang cocok sehingga setelah konfigurasi harus menunggu beberapa saat agar setiap router mendapat semua alamat IP yang ada</li>
                         </ul>
                         <p></p>
-                        <b>Bagaimana ?</b>
-                        <div class="row">
+                        <!-- <div class="row">
+                          <div class="col-md-4"></div>
                           <div class="col-md-3">
                             <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
-                              Sudah faham?
+                            Sudah faham ?
                             </button>
                           </div>
-                          <div class="col-md-3"></div>
-                          <div class="col-md-3"></div>
-                        </div>
+                          <div class="col-md-4"></div>
+                        </div> -->
                       </div>
                     </div>
                   </li>
                 </ul>
 <!-- button pop up -->
+
+                
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
+                      Sudah faham ?
+                      </button>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
+
+
                 <div class="modal modal-warning fade" id="modal-warning">
                   <div class="modal-dialog">
                     <div class="modal-content">

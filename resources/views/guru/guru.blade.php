@@ -8,7 +8,7 @@
             <div class="panel-body">
                 <h1>Daftar Guru</h1>
                 <ol class="breadcrumb">
-                    <li><a href="dashguru"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li><a href="dashguru"><i class="fa fa-home"></i> Home</a></li>
                     <li class="active">User</li>
                 </ol>
             </div>
@@ -30,7 +30,7 @@
                         <th>Email</th>
                         <th>No Hanphone</th>
                         <th>Status</th>
-                        <th>Aksi</th>
+                        <th>Menu</th>
                       </thead>
                       
                       <tbody> 
@@ -42,12 +42,12 @@
                         <td>{{ $user->no_tlp }}</td>
                         <td>{{ $user->status }}</td>
                         <td>
-                            <a href="#" class="btn btn-info btn-sm">
+                            <a href="{{route('edit.user',$user->email)}}" class="btn btn-info btn-sm">
                               <span class="fa fa-pencil"></span>
-                           </a>
-                           <a onclick="return confirm('Apakah anda yakin akan menghapus data ini ?')" href="#" class="btn btn-danger btn-sm">
+                            </a>
+                            <a onclick="return confirm('Apakah anda yakin akan menghapus data ini ?')" href="{{route('delete.user',$user->email)}}" class="btn btn-danger btn-sm">
                               <span class="fa fa-trash"></span>
-                          </a>
+                           </a>
                         </td>
                       </tr>
                       @endforeach

@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{asset('admin_lte/bower_components/Ionicons/css/ionicons.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('admin_lte/dist/css/AdminLTE.min.css')}}">
-  <link rel="stylesheet" href="admin_lte/dist/css/media.css">
+  <link rel="stylesheet" href="{{asset('admin_lte/dist/css/media.css')}}">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="{{asset('admin_lte/dist/css/skins/_all-skins.min.css')}}">
@@ -39,16 +39,16 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition skin-yellow-light sidebar-mini">
+<body class="hold-transition skin-blue-light sidebar-mini">
 <div class="wrapper">
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="dashguru" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>O</b>O</span>
+      <span class="logo-mini"><b>AIJ</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Learning</b></span>
+      <span class="logo-lg"><b>AIJ</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -122,7 +122,7 @@
 
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-files-o"></i>
+            <i class="fa fa-user"></i>
             <span>User</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -132,6 +132,7 @@
             <li><a href="tambahuser"><i class="fa fa-circle-o"></i> Tambah User </a>
             <li><a href="guru"><i class="fa fa-circle-o"></i> Guru</a></li>
             <li><a href="siswa"><i class="fa fa-circle-o"></i> Siswa</a></li>
+            <li><a href="pesan"><i class="fa fa-circle-o"></i> Kirim Pesan ke Admin</a></li>
           </ul>
         </li>
 
@@ -143,11 +144,17 @@
 
         <li>
           <a href="nilai">
-            <i class="fa fa-th"></i> <span>Nilai</span>
+            <i class="fa fa-download"></i> <span>Nilai</span>
           </a>
         </li>
 
-        <li class="treeview">
+        <li>
+          <a href="subbab">
+            <i class="fa fa-pie-chart"></i> <span>Materi</span>
+          </a>
+        </li>
+
+        <!-- <li class="treeview">
           <a href="#">
             <i class="fa fa-pie-chart"></i>
             <span>Materi</span>
@@ -159,7 +166,7 @@
             <li><a href="tambahmateri"><i class="fa fa-circle-o"></i> Tambah Materi</a></li>
             <li><a href="subbab"><i class="fa fa-circle-o"></i> Sub Bab</a></li>
           </ul>
-        </li>
+        </li> -->
       </ul>
     </section>
     <!-- /.sidebar -->

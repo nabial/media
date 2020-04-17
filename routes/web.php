@@ -20,7 +20,7 @@ Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
     Route::get('/siswa','UserController@siswa');
     Route::get('/subbab','MateriController@subbab');
     Route::get('/guruvideo','MateriController@video');
-    Route::get('/guru','UserController@guru');
+    Route::get('/guru','UserController@guru')->name('user.guru');
     Route::get('/nilai','JawabanController@nilai');
     Route::get('/gurusoal', function () {
         return view('guru.soal');
@@ -31,9 +31,19 @@ Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
     Route::get('/materiguru2', function () {
         return view('guru.materiguru2');
     });
-
+    Route::get('/materiguru3', function () {
+        return view('guru.materiguru3');
+    });
     Route::get('/jawaban', 'JawabanController@index');
     Route::get('/jawaban/export_excel', 'JawabanController@export_excel');
+    Route::get('/pesan', function () {
+        return view('guru.pesan');
+    });
+
+    Route::get('/delete/user{id}','UserController@delete')->name('delete.user');
+    Route::get('/edit/user{id}','UserController@edit')->name('edit.user');
+    Route::put('/update/user{id}','UserController@update')->name('update.user');
+    
 
 });
 
@@ -62,6 +72,9 @@ Route::group(['prefix' => 'siswa',  'middleware' => 'is_siswa'], function(){
     });
 });
 
+Route:: get ('/', function () {
+       return view('auth.login');
+    });
 
 Auth::routes();
 

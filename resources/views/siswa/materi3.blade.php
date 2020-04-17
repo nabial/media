@@ -36,28 +36,29 @@
                     <i class="fa fa-check-square bg-blue"></i>
                     <div class="timeline-item">
                       <div class="timeline-body">
-                          <p>Waktu ke waktu perkembangan digital sudah sangat canggih dan dapat memberikan banyak sekali kemudahan untuk kita seperti mudah nya berkomunikasi jarah jauh hingga bisa saling tukar informasi yang ada di dunia maya seperti skarang ini.</p>
+                        <div class="teks-materi">
+                          <p>Waktu ke waktu perkembangan digital sudah sangat canggih dan dapat memberikan banyak sekali kemudahan untuk kita seperti mudah nya berkomunikasi jarah jauh hingga bisa saling tukar informasi yang ada di dunia maya seperti sekarang ini.</p>
                           <p>Lepas dari semua itu apakah kalian terfikirkan bagaimana kita bisa berkomunikasi dalam jangkaun yang cukup jauh?</p>
 
                           <p>Pada jaringan komputer itu sendiri ada sebuah alat yang menghubungkan yaitu routing. <b>Routing adalah sebuah alat yang dapat mengirimkan paket data melalui sebuah jaringan internet menuju tujuannya.</b> Routing inilah yang akan mengirimkan informasi atau paket data dari seluruh pengguna yang saling terhubung dan mengirimkannya ke perangkat-perangkat lain.</p>
 
                           <p>Terdapat beberapa jenis routing, salah satunya adalah <b>Routing Dinamis.</b> Routing dinamis sangat sering digunakan oleh penyedia jasa internet.</p>
-
-                        <div class="row">
-                          <div class="col-md-3">
-                            <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
-                              Sudah faham?
-                            </button>
-                          </div>
-                          <div class="col-md-4"></div>
-                          <div class="col-md-4"></div>
                         </div>
-
                       </div>
                     </div>
                   </li>
                 </ul>
 <!-- button pop up -->
+
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
+                      Sudah faham ?
+                      </button>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
 
                 <div class="modal modal-warning fade" id="modal-warning">
                   <div class="modal-dialog">
