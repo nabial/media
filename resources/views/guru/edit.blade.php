@@ -7,10 +7,10 @@
     <div class="col-md-12">
         <div class="panel block">
             <div class="panel-body">
-                <h2>Tambah User</h2>
+                <h1>Edit</h1>
                 <ol class="breadcrumb">
-                    <li><a href="dashguru"><i class="fa fa-home"></i> Home</a></li>
-                    <li class="active">Tambah User</li>
+                    <li><a href="dashguru"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li class="active">Edit</li>
                 </ol>
             </div>
         </div>
@@ -24,32 +24,34 @@
         <div class="panel block">
             <div class="panel-body">
 
-                <form action="{{route('simpan.user')}}" method="post">
-                    {{ csrf_field() }} 
+                <form action="{{route('update.user',$user->email)}}" method="post">
+                @csrf
+                @method('put')
+                    {{ csrf_field('put') }}
                     <div class="form-group">
                       <label> ID :</label>
-                      <div><input type="text" class="form-control"  name="id" required></div>
+                      <div><input type="text" class="form-control"  name="id" value="{{$user->id}}" required></div>
                     </div>
                     <div class="form-group">
                       <label>Nama :</label>
-                      <div><input type="text" class="form-control"  name="nama" required></div>
+                      <div><input type="text" class="form-control"  name="nama" value="{{$user->nama}}" required></div>
                     </div>
                     <div class="form-group">
                       <label>Email :</label>
-                      <div><input type="text" class="form-control"  name="email" required></div>
+                      <div><input type="text" class="form-control"  name="email" value="{{$user->email}}" required></div>
                     </div>
                     <div class="form-group">
                       <label>Password :</label>
-                      <div><input type="password" class="form-control"  name="password" required></div>
+                      <div><input type="password" class="form-control"  name="password" value="{{$user->password}}" required></div>
                     </div>
                     <div class="form-group">
                       <label>Nomor HP :</label>
-                      <div><input type="text" class="form-control"  name="no_tlp" ></div>
+                      <div><input type="text" class="form-control"  name="no_tlp" value="{{$user->no_tlp}}" required></div>
                     </div>
                     <div class="form-group">
                         <label>Pilih Status:</label>
                         <div>
-                            <select class="form-control" name="status">
+                            <select class="form-control" name="status" value="{{$user->status}}" required>
                                 <option value="" disabled selected hidden>Pilih status</option>
                                 <option value="siswa">Siswa</option>
                                 <option value="guru">Guru</option>
@@ -57,12 +59,13 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary ">Submit</button>
+                    <button type="submit" class="btn btn-primary ">Update</button>
                 </form>
               </div>
             </div>
           </div>
         </div>
+
 </section>
 
 @endsection

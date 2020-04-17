@@ -25,9 +25,9 @@
       <div class="col-md-12">
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#activity" data-toggle="tab">Konsep Routing dinamis</a></li>
-              <li><a href="#timeline" data-toggle="tab">Jenis Routing</a></li>
-              <li><a href="#settings" data-toggle="tab">Kelebihan & Kekurangan</a></li>
+              <li class="active"><a href="#activity" data-toggle="tab">1. Konsep Routing dinamis</a></li>
+              <li><a href="#timeline" data-toggle="tab">2. Jenis Routing</a></li>
+              <li><a href="#settings" data-toggle="tab">3. Kelebihan & Kekurangan</a></li>
             </ul>
             <div class="tab-content">
 <!-- tab 1 -->
@@ -153,23 +153,23 @@
                         <ul>
                           <li>Beban kerja router menjadi lebih berat karena selalu memperbarui IP Table pada setiap waktu tertentu</li>
                           <li>Kecepatan pengenalan dan kelengkapan IP Table terbilang lama karena router membroadcast ke semua router lainnya sampai ada yang cocok sehingga setelah konfigurasi harus menunggu beberapa saat agar setiap router mendapat semua alamat IP yang ada</li>
-                        </ul>
-                        <p></p>
-                        <b>Bagaimana ?</b>
-                        <div class="row">
-                          <div class="col-md-3">
-                            <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
-                              Sudah faham ?
-                            </button>
-                          </div>
-                          <div class="col-md-3"></div>
-                          <div class="col-md-3"></div>
-                        </div>
+                        </ul>                      
                       </div>
                     </div>
                   </li>
                 </ul>
 <!-- button pop up -->
+
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
+                      Sudah faham ?
+                      </button>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div> 
+
                 <div class="modal modal-warning fade" id="modal-warning">
                   <div class="modal-dialog">
                     <div class="modal-content">

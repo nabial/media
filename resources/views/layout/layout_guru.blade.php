@@ -132,6 +132,7 @@
             <li><a href="tambahuser"><i class="fa fa-circle-o"></i> Tambah User </a>
             <li><a href="guru"><i class="fa fa-circle-o"></i> Guru</a></li>
             <li><a href="siswa"><i class="fa fa-circle-o"></i> Siswa</a></li>
+            <li><a href="pesan"><i class="fa fa-circle-o"></i> Kirim Pesan ke Admin</a></li>
           </ul>
         </li>
 

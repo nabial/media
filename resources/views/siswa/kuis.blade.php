@@ -19,9 +19,16 @@
 
     <!-- Main content -->
     <section class="content">
+
+      <div class="box-peraturan">
+        <h4>Kerjakan soal di bawah ini dengan benar!</h4>
+        <p>pilih salah satu jawaban di tiap soal dan klik 'kirim' jika kamu sudah selesai menjawab. Ulangi kuis hingga mendapat nilai yang memuaskan</p>
+      </div>
+
       <div class="row">
         <form action="{{route('simpanjawaban')}}" method="post">
           {{ csrf_field()}}
+
 
         <!-- soal 1 -->
         <div class="col-md-12">

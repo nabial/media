@@ -44,25 +44,21 @@
 
                           <p>Terdapat beberapa jenis routing, salah satunya adalah <b>Routing Dinamis.</b> Routing dinamis sangat sering digunakan oleh penyedia jasa internet.</p>
                         </div>
-                        <p></p>
-                        <b>Bagaimana ?</b>
-                        <div class="row">
-                          <div class="col-md-3">
-                            <div class="btn-faham">
-                              <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
-                                Sudah faham ?
-                              </button>
-                            </div>
-                          </div>
-                          <div class="col-md-4"></div>
-                          <div class="col-md-4"></div>
-                        </div>
-
                       </div>
                     </div>
                   </li>
                 </ul>
 <!-- button pop up -->
+
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-block btn-social btn-warning" id="btn-normal" data-toggle="modal" data-target="#modal-warning"> <i class="fa fa-long-arrow-right"></i>
+                      Sudah faham ?
+                      </button>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
 
                 <div class="modal modal-warning fade" id="modal-warning">
                   <div class="modal-dialog">
