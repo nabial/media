@@ -44,12 +44,12 @@
                     </div>
                     <div class="form-group">
                       <label>Nomor HP :</label>
-                      <div><input type="text" class="form-control"  name="no_tlp" ></div>
+                      <div><input type="text" class="form-control"  name="no_tlp" required></div>
                     </div>
                     <div class="form-group">
                         <label>Pilih Status:</label>
                         <div>
-                            <select class="form-control" name="status">
+                            <select class="form-control" name="status" required>
                                 <option value="" disabled selected hidden>Pilih status</option>
                                 <option value="siswa">Siswa</option>
                                 <option value="guru">Guru</option>
