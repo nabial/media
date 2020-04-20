@@ -132,14 +132,22 @@
             <li><a href="tambahuser"><i class="fa fa-circle-o"></i> Tambah User </a>
             <li><a href="guru"><i class="fa fa-circle-o"></i> Guru</a></li>
             <li><a href="siswa"><i class="fa fa-circle-o"></i> Siswa</a></li>
-            <li><a href="pesan"><i class="fa fa-circle-o"></i> Kirim Pesan ke Admin</a></li>
+           <!--  <li><a href="pesan"><i class="fa fa-circle-o"></i> Kirim Pesan ke Admin</a></li> -->
           </ul>
         </li>
 
-        <li>
-          <a href="gurusoal">
-            <i class="fa fa-th"></i> <span>Soal</span>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-th"></i>
+            <span>Soal</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-left"></i>
+            </span>
           </a>
+          <ul class="treeview-menu">
+            <li><a href="gurusoal"><i class="fa fa-circle-o"></i> Soal </a>
+            <li><a href="kuistambah"><i class="fa fa-circle-o"></i> Tambah Soal</a></li>
+          </ul>
         </li>
 
         <li>
@@ -148,10 +156,19 @@
           </a>
         </li>
 
-        <li>
-          <a href="subbab">
-            <i class="fa fa-pie-chart"></i> <span>Materi</span>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i>
+            <span>Materi</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-left"></i>
+            </span>
           </a>
+          <ul class="treeview-menu">
+            <li><a href="subbab"><i class="fa fa-circle-o"></i> Materi </a>
+            <li><a href="materitambah"><i class="fa fa-circle-o"></i> Tambah Materi</a></li>
+          </ul>
         </li>
 
         <!-- <li class="treeview">

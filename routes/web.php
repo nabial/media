@@ -34,6 +34,12 @@ Route::group(['prefix' => 'guru',  'middleware' => 'is_guru'], function(){
     Route::get('/materiguru3', function () {
         return view('guru.materiguru3');
     });
+    Route::get('/materitambah', function () {
+        return view('guru.materitambah');
+    });
+    Route::get('/kuistambah', function () {
+        return view('guru.kuistambah');
+    });
     Route::get('/jawaban', 'JawabanController@index');
     Route::get('/jawaban/export_excel', 'JawabanController@export_excel');
     Route::get('/pesan', function () {
