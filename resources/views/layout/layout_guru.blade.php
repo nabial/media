@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="{{asset('admin_lte/bower_components/bootstrap-daterangepicker/daterangepicker.css')}}">
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="{{asset('admin_lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
+  {{-- data table --}}
+  <link rel="stylesheet" href="{{asset('https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css')}}">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -207,6 +209,10 @@
 <script>
   $.widget.bridge('uibutton', $.ui.button);
 </script>
+{{-- js nya sisi --}}
+<script src="{{asset('admin_lte/dist/js/sisi.js')}}"></script>
+{{-- datatable --}}
+<script src="{{asset('https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js')}}"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="{{asset('admin_lte/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 <!-- Morris.js charts -->
